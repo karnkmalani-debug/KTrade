@@ -1,0 +1,138 @@
+{
+ "settings": {
+  "model": "claude-sonnet-5-5",
+  "startCapital": 20000,
+  "maxPerTrade": 5000,
+  "maxHoldings": 5,
+  "stopLossPct": 8,
+  "maxTradesPerDay": 3,
+  "minCashPct": 5,
+  "minConfidence": 0.6,
+  "chargesPct": 0.15,
+  "paused": false,
+  "watchlist": [
+   "NIFTYBEES.NS",
+   "BANKBEES.NS",
+   "GOLDBEES.NS",
+   "JUNIORBEES.NS",
+   "RELIANCE.NS",
+   "HDFCBANK.NS",
+   "ICICIBANK.NS",
+   "INFY.NS",
+   "TCS.NS",
+   "ITC.NS",
+   "LT.NS",
+   "SBIN.NS",
+   "BHARTIARTL.NS",
+   "HINDUNILVR.NS",
+   "SUNPHARMA.NS"
+  ]
+ },
+ "cash": 20000,
+ "holdings": {},
+ "trades": [],
+ "runs": [
+  {
+   "date": "2026-10-20",
+   "time": "Tue 20 Oct, 10:36",
+   "view": "Indian markets are closed today for Dussehra, after a broad selloff yesterday (Nifty down about 1.1% to 22,889, led by IT and private banks). The daily-change figures in the data feed look unreliable. With no clear edge and trading costs to consider, staying in cash is the best choice.",
+   "actions": [],
+   "log": [],
+   "estCostUSD": 0.048,
+   "manual": true
+  }
+ ],
+ "snapshots": [
+  {
+   "date": "2026-10-20",
+   "value": 20000,
+   "bench": 20000
+  }
+ ],
+ "prices": {
+  "NIFTYBEES.NS": {
+   "price": 261.2,
+   "prevClose": 276.46,
+   "time": 1792403999
+  },
+  "BANKBEES.NS": {
+   "price": 575.98,
+   "prevClose": 604.9,
+   "time": 1792403999
+  },
+  "GOLDBEES.NS": {
+   "price": 119.83,
+   "prevClose": 115.79,
+   "time": 1792403999
+  },
+  "JUNIORBEES.NS": {
+   "price": 744.73,
+   "prevClose": 776.11,
+   "time": 1792403996
+  },
+  "RELIANCE.NS": {
+   "price": 1202,
+   "prevClose": 1327.2,
+   "time": 1792403978
+  },
+  "HDFCBANK.NS": {
+   "price": 712,
+   "prevClose": 819.6,
+   "time": 1792403979
+  },
+  "ICICIBANK.NS": {
+   "price": 1381,
+   "prevClose": 1444.3,
+   "time": 1792403978
+  },
+  "INFY.NS": {
+   "price": 1130.7,
+   "prevClose": 1096.5,
+   "time": 1792403978
+  },
+  "TCS.NS": {
+   "price": 2460.9,
+   "prevClose": 2269,
+   "time": 1792403978
+  },
+  "ITC.NS": {
+   "price": 260.8,
+   "prevClose": 280.7,
+   "time": 1792403983
+  },
+  "LT.NS": {
+   "price": 3661.9,
+   "prevClose": 3814.5,
+   "time": 1792403978
+  },
+  "SBIN.NS": {
+   "price": 973.7,
+   "prevClose": 1044.3,
+   "time": 1792403978
+  },
+  "BHARTIARTL.NS": {
+   "price": 1875.2,
+   "prevClose": 1908.8,
+   "time": 1792403978
+  },
+  "HINDUNILVR.NS": {
+   "price": 1853.2,
+   "prevClose": 2143.8,
+   "time": 1792403983
+  },
+  "SUNPHARMA.NS": {
+   "price": 1743,
+   "prevClose": 1932.6,
+   "time": 1792403978
+  }
+ },
+ "bench": {
+  "units": 76.5696784073507,
+  "startPrice": 261.2,
+  "date": "2026-10-20"
+ },
+ "startedOn": "2026-10-20",
+ "lastRunDate": "2026-10-20",
+ "lastCheck": null,
+ "updatedAt": "Tue 20 Oct, 10:36"
+}
