@@ -1,0 +1,36 @@
+name: KTrade
+on:
+  schedule:
+    - cron: '15 4 * * 1-5'   # 9:45 AM IST - AI trading run
+    - cron: '5 10 * * 1-5'   # 3:35 PM IST - price + stop-loss check
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'ai = run AI now, check = refresh prices, reset = start over'
+        default: ai
+        type: choice
+        options: [ai, check, reset]
+      force:
+        description: 'Trade even if market is closed'
+        default: false
+        type: boolean
+permissions:
+  contents: write
+concurrency: ktrade
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node run.mjs ${{ github.event.schedule == '5 10 * * 1-5' && 'check' || inputs.mode || 'ai' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE: ${{ inputs.force }}
+      - run: |
+          git config user.name "ktrade-bot"
+          git config user.email "ktrade-bot@users.noreply.github.com"
+          git add data/state.json
+          git diff --cached --quiet || (git commit -m "KTrade update" && git push)
