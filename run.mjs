@@ -1,5 +1,5 @@
 // KTrade runner for GitHub Actions. Paper trading only — never places real orders.
-// Usage: node run.mjs ai | check | reset      (env: ANTHROPIC_API_KEY, FORCE=true to trade on a closed day)
+// Usage: node run.mjs ai | auto | check | reset      (env: ANTHROPIC_API_KEY, FORCE=true to trade on a closed day)
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 
 const MODE = (process.argv[2] || 'ai').toLowerCase();
@@ -44,7 +44,7 @@ async function quote(s) {
       if (!r.ok) continue;
       const x = (await r.json())?.chart?.result?.[0]; if (!x) return null;
       const m = x.meta, c = (x.indicators?.quote?.[0]?.close || []).filter(v => v != null);
-      return { price: m.regularMarketPrice, prevClose: m.chartPreviousClose ?? c[c.length - 2], time: m.regularMarketTime, closes: c };
+      return { price: m.regularMarketPrice, prevClose: c[c.length - 2] ?? m.chartPreviousClose, time: m.regularMarketTime, closes: c };
     } catch { /* try next host */ }
   }
   return null;
@@ -195,7 +195,11 @@ else {
 const manual = process.env.GITHUB_EVENT_NAME === 'workflow_dispatch';
 let msg;
 try {
-  msg = MODE === 'reset' ? 'Portfolio reset.' : MODE === 'check' ? await closeCheck(S) : await runAI(S, manual);
+  if (MODE === 'reset') msg = 'Portfolio reset.';
+  else if (MODE === 'check') msg = await closeCheck(S);
+  // auto = hourly backup runs: trade once per day, otherwise just refresh prices
+  else if (MODE === 'auto' && (S.lastRunDate === day() || S.settings.paused)) msg = await closeCheck(S);
+  else msg = await runAI(S, manual);
 } catch (e) {
   msg = '⚠ Run failed: ' + e.message;
   S.runs.unshift({ date: day(), time: now(), view: msg, actions: [], log: [], estCostUSD: 0, manual });
