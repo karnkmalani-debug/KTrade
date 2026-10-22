@@ -100,15 +100,15 @@
   },
   {
    "date": "2026-10-22",
-   "value": 19947.53,
-   "bench": 19808.58
+   "value": 19952.09,
+   "bench": 19826.95
   }
  ],
  "prices": {
   "NIFTYBEES.NS": {
-   "price": 258.7,
-   "prevClose": 261.20001220703125,
-   "time": 1792661221
+   "price": 258.94,
+   "prevClose": 259.57000732421875,
+   "time": 1792663202
   },
   "BANKBEES.NS": {
    "price": 568.19,
@@ -188,6 +188,6 @@
  },
  "startedOn": "2026-10-20",
  "lastRunDate": "2026-10-22",
- "lastCheck": "Wed 21 Oct, 20:38",
- "updatedAt": "Thu 22 Oct, 14:57"
+ "lastCheck": "Thu 22 Oct, 20:38",
+ "updatedAt": "Thu 22 Oct, 20:38"
 }
