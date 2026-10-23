@@ -50,6 +50,15 @@
  ],
  "runs": [
   {
+   "date": "2026-10-23",
+   "time": "Fri 23 Oct, 14:53",
+   "view": "Indian equities are in a three-day slide, driven by Brent crude above $112, Middle East tensions and caution before the Fed meeting on Oct 27-28. Oversold ETFs are still falling and the strong IT stocks are overbought, so there is no clear edge. I'm holding NIFTYBEES and a large cash buffer until the oil and Fed picture clears.",
+   "actions": [],
+   "log": [],
+   "estCostUSD": 0.052,
+   "manual": false
+  },
+  {
    "date": "2026-10-22",
    "time": "Thu 22 Oct, 14:57",
    "view": "The market is weak. Nifty fell for a second straight session on Oct 21, and today NIFTYBEES is down about 1% with India VIX rising. Most of the watchlist is in short-term downtrends. TCS and INFY are overbought (RSI 84 and 73), so chasing them is risky. I see no clear edge, and the NIFTYBEES position I opened yesterday is only about 1% down, so I'm holding and not paying round-trip costs.",
@@ -102,83 +111,88 @@
    "date": "2026-10-22",
    "value": 19952.09,
    "bench": 19826.95
+  },
+  {
+   "date": "2026-10-23",
+   "value": 19915.42,
+   "bench": 19679.17
   }
  ],
  "prices": {
   "NIFTYBEES.NS": {
-   "price": 258.94,
+   "price": 257.01,
    "prevClose": 259.57000732421875,
-   "time": 1792663202
+   "time": 1792747387
   },
   "BANKBEES.NS": {
-   "price": 568.19,
-   "prevClose": 575.97998046875,
-   "time": 1792661221
+   "price": 561.16,
+   "prevClose": 568.5900268554688,
+   "time": 1792747381
   },
   "GOLDBEES.NS": {
-   "price": 117.3,
-   "prevClose": 119.83000183105469,
-   "time": 1792661223
+   "price": 116.02,
+   "prevClose": 118.12999725341797,
+   "time": 1792747390
   },
   "JUNIORBEES.NS": {
-   "price": 727.49,
-   "prevClose": 744.72998046875,
-   "time": 1792661214
+   "price": 709.24,
+   "prevClose": 730.6799926757812,
+   "time": 1792747387
   },
   "RELIANCE.NS": {
-   "price": 1190.9,
-   "prevClose": 1209,
-   "time": 1792661223
+   "price": 1182.8,
+   "prevClose": 1184.5,
+   "time": 1792747393
   },
   "HDFCBANK.NS": {
-   "price": 692.55,
-   "prevClose": 706.9500122070312,
-   "time": 1792661222
+   "price": 690.3,
+   "prevClose": 694.0499877929688,
+   "time": 1792747393
   },
   "ICICIBANK.NS": {
-   "price": 1394.8,
-   "prevClose": 1385,
-   "time": 1792661223
+   "price": 1381.1,
+   "prevClose": 1398.5,
+   "time": 1792747392
   },
   "INFY.NS": {
-   "price": 1151.1,
-   "prevClose": 1168,
-   "time": 1792661223
+   "price": 1160.2,
+   "prevClose": 1153.3499755859375,
+   "time": 1792747393
   },
   "TCS.NS": {
-   "price": 2500.2,
-   "prevClose": 2529,
-   "time": 1792661223
+   "price": 2535.1,
+   "prevClose": 2506.89990234375,
+   "time": 1792747392
   },
   "ITC.NS": {
-   "price": 257.9,
-   "prevClose": 262,
-   "time": 1792661223
+   "price": 256.75,
+   "prevClose": 258.8999938964844,
+   "time": 1792747389
   },
   "LT.NS": {
-   "price": 3654.4,
-   "prevClose": 3636,
-   "time": 1792661223
+   "price": 3632.7,
+   "prevClose": 3638.300048828125,
+   "time": 1792747392
   },
   "SBIN.NS": {
-   "price": 967.35,
-   "prevClose": 963,
-   "time": 1792661222
+   "price": 955.25,
+   "prevClose": 970,
+   "time": 1792747392
   },
   "BHARTIARTL.NS": {
-   "price": 1904.1,
-   "prevClose": 1891.699951171875,
-   "time": 1792661224
+   "price": 1880.6,
+   "prevClose": 1895,
+   "time": 1792747392
   },
   "HINDUNILVR.NS": {
-   "price": 1812.1,
-   "prevClose": 1850.199951171875,
-   "time": 1792661222
+   "price": 1801.9,
+   "prevClose": 1828.300048828125,
+   "time": 1792747390
   },
   "SUNPHARMA.NS": {
-   "price": 1749.2,
-   "prevClose": 1745.0999755859375,
-   "time": 1792661224
+   "price": 1742.2,
+   "prevClose": 1758,
+   "time": 1792747393
   }
  },
  "bench": {
@@ -187,7 +201,7 @@
   "date": "2026-10-20"
  },
  "startedOn": "2026-10-20",
- "lastRunDate": "2026-10-22",
+ "lastRunDate": "2026-10-23",
  "lastCheck": "Thu 22 Oct, 20:38",
- "updatedAt": "Thu 22 Oct, 20:38"
+ "updatedAt": "Fri 23 Oct, 14:53"
 }
