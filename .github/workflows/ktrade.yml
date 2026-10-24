@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: '15 4-9 * * 1-5'  # every hour 9:45 AM-2:45 PM IST: first one that runs trades, the rest only refresh prices
     - cron: '5 10 * * 1-5'    # 3:35 PM IST - closing price + stop-loss check
+  push:                       # a code or settings change starts a run straight away (it only trades if a portfolio is due)
+    branches: [main]
+    paths: ['run.mjs', 'settings.json']
   workflow_dispatch:
     inputs:
       mode:

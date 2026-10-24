@@ -1,5 +1,5 @@
 // KTrade service worker — app shell offline, network-first so updates show up.
-const CACHE = 'ktrade-v4';
+const CACHE = 'ktrade-v5';
 const SHELL = ['./', 'index.html', 'manifest.json', 'icon.svg', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {

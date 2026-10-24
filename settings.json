@@ -1,13 +1,9 @@
 {
   "model": "claude-sonnet-5-5",
-  "startCapital": 20000,
-  "maxPerTrade": 5000,
-  "maxHoldings": 5,
-  "stopLossPct": 8,
-  "maxTradesPerDay": 3,
-  "minCashPct": 5,
-  "minConfidence": 0.6,
-  "chargesPct": 0.15,
   "paused": false,
-  "watchlist": ["NIFTYBEES", "BANKBEES", "GOLDBEES", "JUNIORBEES", "RELIANCE", "HDFCBANK", "ICICIBANK", "INFY", "TCS", "ITC", "LT", "SBIN", "BHARTIARTL", "HINDUNILVR", "SUNPHARMA"]
+  "portfolios": {
+    "commodities": { "paused": false },
+    "longterm": { "paused": false },
+    "aggressive": { "paused": false }
+  }
 }
