@@ -1,207 +1,137 @@
 {
- "settings": {
-  "model": "claude-sonnet-5-5",
-  "startCapital": 20000,
-  "maxPerTrade": 5000,
-  "maxHoldings": 5,
-  "stopLossPct": 8,
-  "maxTradesPerDay": 3,
-  "minCashPct": 5,
-  "minConfidence": 0.6,
-  "chargesPct": 0.15,
-  "paused": false,
-  "watchlist": [
-   "NIFTYBEES.NS",
-   "BANKBEES.NS",
-   "GOLDBEES.NS",
-   "JUNIORBEES.NS",
-   "RELIANCE.NS",
-   "HDFCBANK.NS",
-   "ICICIBANK.NS",
-   "INFY.NS",
-   "TCS.NS",
-   "ITC.NS",
-   "LT.NS",
-   "SBIN.NS",
-   "BHARTIARTL.NS",
-   "HINDUNILVR.NS",
-   "SUNPHARMA.NS"
-  ]
- },
- "cash": 15032.229505,
- "holdings": {
-  "NIFTYBEES.NS": {
-   "qty": 19,
-   "avg": 261.46160499999996,
-   "since": "2026-10-21"
-  }
- },
- "trades": [
-  {
-   "date": "2026-10-21",
-   "side": "BUY",
-   "sym": "NIFTYBEES.NS",
-   "qty": 19,
-   "price": 261.07,
-   "fee": 7.44,
-   "reason": "Portfolio is all cash; build benchmark-matching core exposure at low cost rather than chasing overbought TCS/INFY or falling gold.",
-   "conf": 0.6
-  }
- ],
- "runs": [
-  {
-   "date": "2026-10-23",
-   "time": "Fri 23 Oct, 14:53",
-   "view": "Indian equities are in a three-day slide, driven by Brent crude above $112, Middle East tensions and caution before the Fed meeting on Oct 27-28. Oversold ETFs are still falling and the strong IT stocks are overbought, so there is no clear edge. I'm holding NIFTYBEES and a large cash buffer until the oil and Fed picture clears.",
-   "actions": [],
-   "log": [],
-   "estCostUSD": 0.052,
-   "manual": false
-  },
-  {
-   "date": "2026-10-22",
-   "time": "Thu 22 Oct, 14:57",
-   "view": "The market is weak. Nifty fell for a second straight session on Oct 21, and today NIFTYBEES is down about 1% with India VIX rising. Most of the watchlist is in short-term downtrends. TCS and INFY are overbought (RSI 84 and 73), so chasing them is risky. I see no clear edge, and the NIFTYBEES position I opened yesterday is only about 1% down, so I'm holding and not paying round-trip costs.",
-   "actions": [],
-   "log": [],
-   "estCostUSD": 0.044,
-   "manual": false
-  },
-  {
-   "date": "2026-10-21",
-   "time": "Wed 21 Oct, 11:31",
-   "view": "Nifty bounced back above 23,000 on IT-led buying after a holiday and a sharp Monday fall. Crude above $110 and a rising VIX keep risk elevated, and TCS and INFY look overextended after big rallies. Gold is in a downtrend, and the broad market is still negative over 3 months.",
-   "actions": [
+ "version": 2,
+ "startedOn": "2026-10-24",
+ "portfolios": {
+  "commodities": {
+   "id": "commodities",
+   "cash": 20000,
+   "holdings": {},
+   "trades": [],
+   "runs": [
     {
-     "action": "BUY",
-     "symbol": "NIFTYBEES.NS",
-     "amount_inr": 5000,
-     "confidence": 0.6,
-     "reason": "Portfolio is all cash; build benchmark-matching core exposure at low cost rather than chasing overbought TCS/INFY or falling gold."
+     "date": "2026-10-24",
+     "time": "Sat, 24 Oct 2026, 12:48",
+     "view": "Market closed today (holiday/weekend) — no trades.",
+     "actions": [],
+     "log": [],
+     "estCostUSD": 0,
+     "manual": false
     }
    ],
-   "log": [
-    "Bought NIFTYBEES"
+   "snapshots": [],
+   "bench": null,
+   "risk": null,
+   "startedOn": "2026-10-24",
+   "lastRunDate": "2026-10-24",
+   "lastRunWeek": null
+  },
+  "longterm": {
+   "id": "longterm",
+   "cash": 20000,
+   "holdings": {},
+   "trades": [],
+   "runs": [],
+   "snapshots": [],
+   "bench": null,
+   "risk": null,
+   "startedOn": "2026-10-24",
+   "lastRunDate": null,
+   "lastRunWeek": null
+  },
+  "aggressive": {
+   "id": "aggressive",
+   "cash": 20000,
+   "holdings": {},
+   "trades": [],
+   "runs": [
+    {
+     "date": "2026-10-24",
+     "time": "Sat, 24 Oct 2026, 12:48",
+     "view": "Market closed today (holiday/weekend) — no trades.",
+     "actions": [],
+     "log": [],
+     "estCostUSD": 0,
+     "manual": false
+    }
    ],
-   "estCostUSD": 0.107,
-   "manual": true
-  },
-  {
-   "date": "2026-10-20",
-   "time": "Tue 20 Oct, 10:36",
-   "view": "Indian markets are closed today for Dussehra, after a broad selloff yesterday (Nifty down about 1.1% to 22,889, led by IT and private banks). The daily-change figures in the data feed look unreliable. With no clear edge and trading costs to consider, staying in cash is the best choice.",
-   "actions": [],
-   "log": [],
-   "estCostUSD": 0.048,
-   "manual": true
-  }
- ],
- "snapshots": [
-  {
-   "date": "2026-10-20",
-   "value": 20000,
-   "bench": 20000
-  },
-  {
-   "date": "2026-10-21",
-   "value": 19964.06,
-   "bench": 19875.19
-  },
-  {
-   "date": "2026-10-22",
-   "value": 19952.09,
-   "bench": 19826.95
-  },
-  {
-   "date": "2026-10-23",
-   "value": 19919.41,
-   "bench": 19695.25
-  }
- ],
- "prices": {
-  "NIFTYBEES.NS": {
-   "price": 257.22,
-   "prevClose": 258.94000244140625,
-   "time": 1792749599
-  },
-  "BANKBEES.NS": {
-   "price": 561.16,
-   "prevClose": 568.5900268554688,
-   "time": 1792747381
-  },
-  "GOLDBEES.NS": {
-   "price": 116.02,
-   "prevClose": 118.12999725341797,
-   "time": 1792747390
-  },
-  "JUNIORBEES.NS": {
-   "price": 709.24,
-   "prevClose": 730.6799926757812,
-   "time": 1792747387
-  },
-  "RELIANCE.NS": {
-   "price": 1182.8,
-   "prevClose": 1184.5,
-   "time": 1792747393
-  },
-  "HDFCBANK.NS": {
-   "price": 690.3,
-   "prevClose": 694.0499877929688,
-   "time": 1792747393
-  },
-  "ICICIBANK.NS": {
-   "price": 1381.1,
-   "prevClose": 1398.5,
-   "time": 1792747392
-  },
-  "INFY.NS": {
-   "price": 1160.2,
-   "prevClose": 1153.3499755859375,
-   "time": 1792747393
-  },
-  "TCS.NS": {
-   "price": 2535.1,
-   "prevClose": 2506.89990234375,
-   "time": 1792747392
-  },
-  "ITC.NS": {
-   "price": 256.75,
-   "prevClose": 258.8999938964844,
-   "time": 1792747389
-  },
-  "LT.NS": {
-   "price": 3632.7,
-   "prevClose": 3638.300048828125,
-   "time": 1792747392
-  },
-  "SBIN.NS": {
-   "price": 955.25,
-   "prevClose": 970,
-   "time": 1792747392
-  },
-  "BHARTIARTL.NS": {
-   "price": 1880.6,
-   "prevClose": 1895,
-   "time": 1792747392
-  },
-  "HINDUNILVR.NS": {
-   "price": 1801.9,
-   "prevClose": 1828.300048828125,
-   "time": 1792747390
-  },
-  "SUNPHARMA.NS": {
-   "price": 1742.2,
-   "prevClose": 1758,
-   "time": 1792747393
+   "snapshots": [],
+   "bench": null,
+   "risk": null,
+   "startedOn": "2026-10-24",
+   "lastRunDate": "2026-10-24",
+   "lastRunWeek": null
   }
  },
- "bench": {
-  "units": 76.5696784073507,
-  "startPrice": 261.2,
-  "date": "2026-10-20"
+ "prices": {},
+ "fx": 94.94,
+ "lastCheck": null,
+ "settings": {
+  "model": "claude-sonnet-5-5",
+  "paused": false,
+  "portfolios": {
+   "commodities": {
+    "paused": false
+   },
+   "longterm": {
+    "paused": false
+   },
+   "aggressive": {
+    "paused": false
+   }
+  }
  },
- "startedOn": "2026-10-20",
- "lastRunDate": "2026-10-23",
- "lastCheck": "Fri 23 Oct, 20:27",
- "updatedAt": "Fri 23 Oct, 20:27"
+ "config": {
+  "commodities": {
+   "name": "Commodities",
+   "cadence": "daily",
+   "capital": 20000,
+   "maxHoldings": 6,
+   "maxPosPct": 35,
+   "stopLossPct": 10,
+   "maxTradesPerDay": 3,
+   "minCashPct": 5,
+   "minConfidence": 0.6,
+   "bench": {
+    "DBC": 1
+   },
+   "benchName": "Broad commodity index (DBC)"
+  },
+  "longterm": {
+   "name": "Long-term · 5 years",
+   "cadence": "weekly",
+   "capital": 20000,
+   "maxHoldings": 12,
+   "maxPosPct": 15,
+   "stopLossPct": 25,
+   "maxTradesPerDay": 4,
+   "minCashPct": 3,
+   "minConfidence": 0.6,
+   "bench": {
+    "NIFTYBEES.NS": 0.5,
+    "VOO": 0.5
+   },
+   "benchName": "50% Nifty 50 + 50% S&P 500"
+  },
+  "aggressive": {
+   "name": "Aggressive · 12–18 months",
+   "cadence": "daily",
+   "capital": 20000,
+   "maxHoldings": 8,
+   "maxPosPct": 25,
+   "stopLossPct": 12,
+   "maxTradesPerDay": 3,
+   "minCashPct": 3,
+   "minConfidence": 0.6,
+   "bench": {
+    "NIFTYBEES.NS": 0.5,
+    "QQQ": 0.5
+   },
+   "benchName": "50% Nifty 50 + 50% Nasdaq 100"
+  }
+ },
+ "charges": {
+  "IN": 0.15,
+  "US": 0.75
+ },
+ "updatedAt": "Sat, 24 Oct 2026, 12:48"
 }
