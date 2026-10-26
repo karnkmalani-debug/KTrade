@@ -1,8 +1,10 @@
 name: KTrade
 on:
   schedule:
-    - cron: '15 4-9 * * 1-5'  # every hour 9:45 AM-2:45 PM IST: first one that runs trades, the rest only refresh prices
-    - cron: '5 10 * * 1-5'    # 3:35 PM IST - closing price + stop-loss check
+    # GitHub often skips or delays scheduled runs, so there are many tries. The AI only trades once per due day;
+    # the other runs just refresh prices.
+    - cron: '7,22,37,52 4-9 * * 1-5'  # every 15 min, about 9:37 AM-3:22 PM IST
+    - cron: '7,22,37 10 * * 1-5'      # about 3:37-4:07 PM IST - closing price + stop-loss check
   push:                       # a code or settings change starts a run straight away (it only trades if a portfolio is due)
     branches: [main]
     paths: ['run.mjs', 'settings.json']
@@ -28,7 +30,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node run.mjs ${{ github.event.schedule == '5 10 * * 1-5' && 'check' || github.event_name == 'schedule' && 'auto' || inputs.mode || 'ai' }}
+      - run: node run.mjs ${{ github.event.schedule == '7,22,37 10 * * 1-5' && 'check' || github.event_name == 'schedule' && 'auto' || inputs.mode || 'ai' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FORCE: ${{ inputs.force }}
