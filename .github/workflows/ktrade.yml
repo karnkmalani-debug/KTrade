@@ -11,10 +11,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'ai = run AI now, check = refresh prices, reset = start over'
+        description: 'ai = run AI now, auto = run only portfolios due today, check = refresh prices, reset = start over'
         default: ai
         type: choice
-        options: [ai, check, reset]
+        options: [ai, auto, check, reset]
       force:
         description: 'Trade even if market is closed'
         default: false
