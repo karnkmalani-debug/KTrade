@@ -4,10 +4,10 @@
  "portfolios": {
   "commodities": {
    "id": "commodities",
-   "cash": 5502.238246232499,
+   "cash": 8205.545134482498,
    "holdings": {
     "USO": {
-     "qty": 0.3381,
+     "qty": 0.1681,
      "avg": 16263.286649999998,
      "since": "2026-10-26"
     },
@@ -23,6 +23,17 @@
     }
    },
    "trades": [
+    {
+     "date": "2026-11-02",
+     "side": "SELL",
+     "sym": "USO",
+     "qty": 0.17,
+     "price": 16021.97,
+     "fee": 20.43,
+     "pnl": -61.45,
+     "reason": "Trim overbought USO (RSI 77) before the midterms and Iran deal binary risk. Oil and energy are over 50% of the portfolio.",
+     "conf": 0.6
+    },
     {
      "date": "2026-10-27",
      "side": "BUY",
@@ -55,6 +66,33 @@
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-02",
+     "time": "Mon, 02 Nov 2026, 17:45",
+     "view": "Oil is the main driver. Brent is above $100 on the Iran war premium, but Doha peace talks and the US midterms on Nov 3 make the next move two-sided. Gold and silver are in a liquidation selloff, with gold at a one-year low and RSI deeply oversold, so I'm not buying them yet. Copper is weak but not stopped out.",
+     "actions": [
+      {
+       "action": "SELL",
+       "symbol": "USO",
+       "qty": 0.17,
+       "confidence": 0.6,
+       "reason": "Trim overbought USO (RSI 77) before the midterms and Iran deal binary risk. Oil and energy are over 50% of the portfolio."
+      },
+      {
+       "action": "BUY",
+       "symbol": "DBC",
+       "amount_inr": 2500,
+       "confidence": 0.55,
+       "reason": "Diversified exposure that matches the benchmark, and it puts some of the idle cash to work. Gold and silver are still falling, so I'm avoiding them for now."
+      }
+     ],
+     "log": [
+      "Sold USO",
+      "Skipped BUY DBC: confidence 0.55"
+     ],
+     "estCostUSD": 0.118,
+     "manual": false
+    },
     {
      "date": "2026-10-30",
      "time": "Fri, 30 Oct 2026, 16:19",
@@ -191,6 +229,11 @@
      "date": "2026-10-30",
      "value": 19859.66,
      "bench": 19754.54
+    },
+    {
+     "date": "2026-11-02",
+     "value": 19811.9,
+     "bench": 19646.87
     }
    ],
    "bench": {
@@ -203,30 +246,30 @@
     "date": "2026-10-26"
    },
    "risk": {
-    "date": "2026-10-30",
-    "value": 19860,
-    "cashPct": 27.71,
+    "date": "2026-11-02",
+    "value": 19812,
+    "cashPct": 41.42,
     "largest": {
-     "symbol": "USO",
-     "pct": 27.56
+     "symbol": "XLE",
+     "pct": 25.21
     },
-    "volPct": 17.51,
-    "worstDayPct": -2.72,
-    "worstMonthPct": -10.89,
+    "volPct": 11.69,
+    "worstDayPct": -1.65,
+    "worstMonthPct": -7.37,
     "avgCorr": 0.14,
     "byMarket": {
      "India": 0,
-     "US": 72.29
+     "US": 58.58
     },
-    "worstMonthLossINR": -2162
+    "worstMonthLossINR": -1460
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-10-30",
-   "lastRunWeek": "2026-10-26"
+   "lastRunDate": "2026-11-02",
+   "lastRunWeek": "2026-11-02"
   },
   "longterm": {
    "id": "longterm",
-   "cash": 11439.68724104,
+   "cash": 6140.560930639998,
    "holdings": {
     "NIFTYBEES.NS": {
      "qty": 11,
@@ -242,9 +285,39 @@
      "qty": 2,
      "avg": 1404.103,
      "since": "2026-10-26"
+    },
+    "MSFT": {
+     "qty": 0.0561,
+     "avg": 49900.72945,
+     "since": "2026-11-02"
+    },
+    "VXUS": {
+     "qty": 0.3174,
+     "avg": 7875.536825,
+     "since": "2026-11-02"
     }
    },
    "trades": [
+    {
+     "date": "2026-11-02",
+     "side": "BUY",
+     "sym": "VXUS",
+     "qty": 0.3174,
+     "price": 7816.91,
+     "fee": 18.61,
+     "reason": "Adds ex-US diversification at an oversold level (RSI 34), lowering the portfolio's India/US concentration",
+     "conf": 0.6
+    },
+    {
+     "date": "2026-11-02",
+     "side": "BUY",
+     "sym": "MSFT",
+     "qty": 0.0561,
+     "price": 49529.26,
+     "fee": 20.84,
+     "reason": "Quality compounder, strong Azure-led quarter, RSI 36 after the tech sell-off; adds US stock exposure beyond VOO",
+     "conf": 0.65
+    },
     {
      "date": "2026-10-26",
      "side": "BUY",
@@ -277,6 +350,49 @@
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-02",
+     "time": "Mon, 02 Nov 2026, 17:46",
+     "view": "India is in a three-day relief rally on cooling oil and better earnings, while US tech has sold off hard (Nasdaq had its worst month since March 2025) and gold is in a speculative liquidation tied to Fed-hike fears. With 57% in cash, I'm putting money to work gradually in oversold quality areas (US large-cap, ex-US, gold) plus one defensive Indian compounder, and staying away from overbought names.",
+     "actions": [
+      {
+       "action": "BUY",
+       "symbol": "MSFT",
+       "amount_inr": 2800,
+       "confidence": 0.65,
+       "reason": "Quality compounder, strong Azure-led quarter, RSI 36 after the tech sell-off; adds US stock exposure beyond VOO"
+      },
+      {
+       "action": "BUY",
+       "symbol": "VXUS",
+       "amount_inr": 2500,
+       "confidence": 0.6,
+       "reason": "Adds ex-US diversification at an oversold level (RSI 34), lowering the portfolio's India/US concentration"
+      },
+      {
+       "action": "BUY",
+       "symbol": "GOLDBEES.NS",
+       "amount_inr": 2100,
+       "confidence": 0.55,
+       "reason": "Start the gold allocation on deep weakness (RSI 17); Indian ETF with low costs; partial position because the Fed-hike risk persists"
+      },
+      {
+       "action": "BUY",
+       "symbol": "SUNPHARMA.NS",
+       "amount_inr": 1770,
+       "confidence": 0.6,
+       "reason": "Quality pharma compounder, 11% below its 6-month high with a neutral RSI; diversifies the portfolio away from banks and index funds"
+      }
+     ],
+     "log": [
+      "Bought MSFT",
+      "Bought VXUS",
+      "Skipped BUY GOLDBEES: confidence 0.55",
+      "Skipped: SUNPHARMA: too small for 1 share"
+     ],
+     "estCostUSD": 0.257,
+     "manual": false
+    },
     {
      "date": "2026-10-26",
      "time": "Mon, 26 Oct 2026, 15:17",
@@ -346,6 +462,11 @@
      "date": "2026-10-30",
      "value": 19981.89,
      "bench": 20070.35
+    },
+    {
+     "date": "2026-11-02",
+     "value": 19948.44,
+     "bench": 20165.82
     }
    ],
    "bench": {
@@ -360,26 +481,26 @@
     "date": "2026-10-26"
    },
    "risk": {
-    "date": "2026-10-30",
-    "value": 19982,
-    "cashPct": 57.25,
+    "date": "2026-11-02",
+    "value": 19948,
+    "cashPct": 30.78,
     "largest": {
      "symbol": "NIFTYBEES",
-     "pct": 14.47
+     "pct": 14.66
     },
-    "volPct": 3.83,
-    "worstDayPct": -0.55,
-    "worstMonthPct": -2.29,
-    "avgCorr": 0.12,
+    "volPct": 8.24,
+    "worstDayPct": -1.1,
+    "worstMonthPct": -2.68,
+    "avgCorr": 0.25,
     "byMarket": {
-     "India": 28.46,
-     "US": 14.29
+     "India": 28.57,
+     "US": 40.65
     },
-    "worstMonthLossINR": -458
+    "worstMonthLossINR": -535
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-10-26",
-   "lastRunWeek": "2026-10-26"
+   "lastRunDate": "2026-11-02",
+   "lastRunWeek": "2026-11-02"
   },
   "aggressive": {
    "id": "aggressive",
@@ -464,6 +585,15 @@
     }
    ],
    "runs": [
+    {
+     "date": "2026-11-02",
+     "time": "Mon, 02 Nov 2026, 17:46",
+     "view": "US tech is in a sharp AI-capex and earnings-driven sell-off. The Nasdaq is about 8% off its October high, and chips are oversold. India holdings (HAL, Eternal) are holding up well. I'm staying put, since costs on US round-trips are high and no stops are hit.",
+     "actions": [],
+     "log": [],
+     "estCostUSD": 0.065,
+     "manual": false
+    },
     {
      "date": "2026-10-30",
      "time": "Fri, 30 Oct 2026, 16:19",
@@ -616,6 +746,11 @@
      "date": "2026-10-30",
      "value": 19815.19,
      "bench": 19934.62
+    },
+    {
+     "date": "2026-11-02",
+     "value": 19815.78,
+     "bench": 20022.79
     }
    ],
    "bench": {
@@ -630,437 +765,437 @@
     "date": "2026-10-26"
    },
    "risk": {
-    "date": "2026-10-30",
-    "value": 19815,
+    "date": "2026-11-02",
+    "value": 19816,
     "cashPct": 4.38,
     "largest": {
      "symbol": "HAL",
-     "pct": 24.49
+     "pct": 24.5
     },
-    "volPct": 19.19,
-    "worstDayPct": -2.11,
-    "worstMonthPct": -3.81,
-    "avgCorr": 0.13,
+    "volPct": 19.39,
+    "worstDayPct": -2.06,
+    "worstMonthPct": -3.89,
+    "avgCorr": 0.15,
     "byMarket": {
-     "India": 48.77,
-     "US": 46.84
+     "India": 48.8,
+     "US": 46.81
     },
-    "worstMonthLossINR": -755
+    "worstMonthLossINR": -771
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-10-30",
-   "lastRunWeek": "2026-10-26"
+   "lastRunDate": "2026-11-02",
+   "lastRunWeek": "2026-11-02"
   }
  },
  "prices": {
   "NIFTYBEES.NS": {
-   "price": 262.89,
+   "price": 265.9,
    "cur": "INR",
-   "inr": 262.89,
-   "prevClose": 261.8800048828125,
-   "time": 1793354395
+   "inr": 265.9,
+   "prevClose": 262.8900146484375,
+   "time": 1793613602
   },
   "DBC": {
-   "price": 33.78,
+   "price": 33.61,
    "cur": "USD",
-   "inr": 3207.07,
+   "inr": 3189.59,
    "prevClose": 33.720001220703125,
-   "time": 1793377962
+   "time": 1793390400
   },
   "GLD": {
-   "price": 368.57,
+   "price": 355.78,
    "cur": "USD",
-   "inr": 34995.72,
-   "prevClose": 373.510009765625,
-   "time": 1793304000
+   "inr": 33763.52,
+   "prevClose": 368.57000732421875,
+   "time": 1793390401
   },
   "SLV": {
-   "price": 47.28,
+   "price": 44.6,
    "cur": "USD",
-   "inr": 4489.24,
-   "prevClose": 49.060001373291016,
-   "time": 1793304000
+   "inr": 4232.54,
+   "prevClose": 47.279998779296875,
+   "time": 1793390400
   },
   "USO": {
-   "price": 170.51,
+   "price": 168.83,
    "cur": "USD",
-   "inr": 16188.22,
+   "inr": 16021.97,
    "prevClose": 168.19000244140625,
-   "time": 1793378265
+   "time": 1793390400
   },
   "BNO": {
-   "price": 70.76,
+   "price": 71.39,
    "cur": "USD",
-   "inr": 6718.66,
-   "prevClose": 70.13999938964844,
-   "time": 1793304000
+   "inr": 6774.91,
+   "prevClose": 70.76000213623047,
+   "time": 1793390400
   },
   "UNG": {
-   "price": 9.18,
+   "price": 9.08,
    "cur": "USD",
-   "inr": 871.64,
-   "prevClose": 9.5,
-   "time": 1793304000
+   "inr": 861.69,
+   "prevClose": 9.180000305175781,
+   "time": 1793390400
   },
   "CPER": {
-   "price": 38.96,
+   "price": 38.99,
    "cur": "USD",
-   "inr": 3698.86,
+   "inr": 3700.15,
    "prevClose": 39.72999954223633,
-   "time": 1793378252
+   "time": 1793390401
   },
   "DBA": {
-   "price": 27.17,
+   "price": 26.89,
    "cur": "USD",
-   "inr": 2579.79,
-   "prevClose": 27.110000610351562,
-   "time": 1793304000
+   "inr": 2551.86,
+   "prevClose": 27.170000076293945,
+   "time": 1793390400
   },
   "PDBC": {
-   "price": 20.11,
+   "price": 20.02,
    "cur": "USD",
-   "inr": 1909.44,
-   "prevClose": 20.139999389648438,
-   "time": 1793304001
+   "inr": 1899.9,
+   "prevClose": 20.110000610351562,
+   "time": 1793390400
   },
   "GDX": {
-   "price": 81.33,
+   "price": 77.09,
    "cur": "USD",
-   "inr": 7722.28,
-   "prevClose": 83.94999694824219,
-   "time": 1793304000
+   "inr": 7315.84,
+   "prevClose": 81.33000183105469,
+   "time": 1793390400
   },
   "XLE": {
-   "price": 69.61,
+   "price": 70.02,
    "cur": "USD",
-   "inr": 6608.3,
+   "inr": 6644.9,
    "prevClose": 68.70999908447266,
-   "time": 1793378271
+   "time": 1793390400
   },
   "URA": {
-   "price": 35.72,
+   "price": 33.73,
    "cur": "USD",
-   "inr": 3391.61,
-   "prevClose": 36.54999923706055,
-   "time": 1793304000
+   "inr": 3200.98,
+   "prevClose": 35.720001220703125,
+   "time": 1793390400
   },
   "GOLDBEES.NS": {
-   "price": 115.23,
+   "price": 112.53,
    "cur": "INR",
-   "inr": 115.23,
-   "prevClose": 116.37000274658203,
-   "time": 1793354400
+   "inr": 112.53,
+   "prevClose": 115.2300033569336,
+   "time": 1793613602
   },
   "SILVERBEES.NS": {
-   "price": 173.34,
+   "price": 171.39,
    "cur": "INR",
-   "inr": 173.34,
-   "prevClose": 179.80999755859375,
-   "time": 1793354399
+   "inr": 171.39,
+   "prevClose": 173.33999633789062,
+   "time": 1793613599
   },
   "VOO": {
-   "price": 695.96,
+   "price": 694.81,
    "cur": "USD",
-   "inr": 66074.44,
+   "inr": 65937.47,
    "prevClose": 707.3200073242188,
-   "time": 1793378191
+   "time": 1793390400
   },
   "JUNIORBEES.NS": {
-   "price": 718.38,
+   "price": 744.17,
    "cur": "INR",
-   "inr": 718.38,
-   "prevClose": 708.9600219726562,
-   "time": 1793008002
+   "inr": 744.17,
+   "prevClose": 730.9000244140625,
+   "time": 1793613597
   },
   "HDFCBANK.NS": {
-   "price": 687.2,
+   "price": 700,
    "cur": "INR",
-   "inr": 687.2,
+   "inr": 700,
    "prevClose": 692.7999877929688,
-   "time": 1793007899
+   "time": 1793613569
   },
   "ICICIBANK.NS": {
-   "price": 1398,
+   "price": 1387.4,
    "cur": "INR",
-   "inr": 1398,
-   "prevClose": 1386.5999755859375,
-   "time": 1793354303
+   "inr": 1387.4,
+   "prevClose": 1398,
+   "time": 1793613569
   },
   "RELIANCE.NS": {
-   "price": 1201.6,
+   "price": 1300,
    "cur": "INR",
-   "inr": 1201.6,
-   "prevClose": 1190,
-   "time": 1793007905
+   "inr": 1300,
+   "prevClose": 1164.9000244140625,
+   "time": 1793613570
   },
   "TCS.NS": {
-   "price": 2532.9,
+   "price": 2501.7,
    "cur": "INR",
-   "inr": 2532.9,
-   "prevClose": 2530,
-   "time": 1793007905
+   "inr": 2501.7,
+   "prevClose": 2502.60009765625,
+   "time": 1793613569
   },
   "INFY.NS": {
-   "price": 1160.25,
+   "price": 1161,
    "cur": "INR",
-   "inr": 1160.25,
-   "prevClose": 1153.800048828125,
-   "time": 1793007900
+   "inr": 1161,
+   "prevClose": 1185,
+   "time": 1793613569
   },
   "BHARTIARTL.NS": {
-   "price": 1910.1,
+   "price": 1989.9,
    "cur": "INR",
-   "inr": 1910.1,
-   "prevClose": 1892.0999755859375,
-   "time": 1793007899
+   "inr": 1989.9,
+   "prevClose": 1973.699951171875,
+   "time": 1793613569
   },
   "LT.NS": {
-   "price": 3663,
+   "price": 3939.9,
    "cur": "INR",
-   "inr": 3663,
-   "prevClose": 3647,
-   "time": 1793007898
+   "inr": 3939.9,
+   "prevClose": 3871.699951171875,
+   "time": 1793613569
   },
   "BAJFINANCE.NS": {
-   "price": 920,
+   "price": 959.4,
    "cur": "INR",
-   "inr": 920,
-   "prevClose": 928.9500122070312,
-   "time": 1793007905
+   "inr": 959.4,
+   "prevClose": 939.0999755859375,
+   "time": 1793613569
   },
   "TITAN.NS": {
-   "price": 4315,
+   "price": 4476.3,
    "cur": "INR",
-   "inr": 4315,
-   "prevClose": 4299.7001953125,
-   "time": 1793007905
+   "inr": 4476.3,
+   "prevClose": 4436.5,
+   "time": 1793613576
   },
   "SUNPHARMA.NS": {
-   "price": 1738.1,
+   "price": 1770,
    "cur": "INR",
-   "inr": 1738.1,
-   "prevClose": 1748,
-   "time": 1793007906
+   "inr": 1770,
+   "prevClose": 1777.699951171875,
+   "time": 1793613569
   },
   "QQQ": {
-   "price": 692.17,
+   "price": 690.49,
    "cur": "USD",
-   "inr": 65714.62,
+   "inr": 65527.5,
    "prevClose": 715.3400268554688,
-   "time": 1793378267
+   "time": 1793390401
   },
   "VXUS": {
-   "price": 82.53,
+   "price": 82.37,
    "cur": "USD",
-   "inr": 7858.3,
-   "prevClose": 82.7300033569336,
-   "time": 1792785600
+   "inr": 7816.91,
+   "prevClose": 83.6500015258789,
+   "time": 1793390401
   },
   "MSFT": {
-   "price": 524.51,
+   "price": 521.91,
    "cur": "USD",
-   "inr": 49942.53,
-   "prevClose": 521.0800170898438,
-   "time": 1792785601
+   "inr": 49529.26,
+   "prevClose": 530.1400146484375,
+   "time": 1793390401
   },
   "AAPL": {
-   "price": 347.73,
+   "price": 344.63,
    "cur": "USD",
-   "inr": 33109.51,
-   "prevClose": 348.2200012207031,
-   "time": 1792785601
+   "inr": 32705.39,
+   "prevClose": 348.9100036621094,
+   "time": 1793390401
   },
   "GOOGL": {
-   "price": 320.21,
+   "price": 279.84,
    "cur": "USD",
-   "inr": 30489.6,
-   "prevClose": 324.2200012207031,
-   "time": 1792785601
+   "inr": 26556.82,
+   "prevClose": 283.82000732421875,
+   "time": 1793390401
   },
   "AMZN": {
-   "price": 248,
+   "price": 240.35,
    "cur": "USD",
-   "inr": 23613.94,
-   "prevClose": 250.3800048828125,
-   "time": 1792785601
+   "inr": 22809.22,
+   "prevClose": 243.7899932861328,
+   "time": 1793390401
   },
   "NVDA": {
-   "price": 213.66,
+   "price": 204.64,
    "cur": "USD",
-   "inr": 20287.02,
-   "prevClose": 215.3800048828125,
-   "time": 1793304000
+   "inr": 19420.34,
+   "prevClose": 213.66000366210938,
+   "time": 1793390401
   },
   "BRK-B": {
-   "price": 542.19,
+   "price": 542.49,
    "cur": "USD",
-   "inr": 51625.98,
-   "prevClose": 546.969970703125,
-   "time": 1792785796
+   "inr": 51482.3,
+   "prevClose": 541.9600219726562,
+   "time": 1793390441
   },
   "JPM": {
-   "price": 331.58,
+   "price": 337.04,
    "cur": "USD",
-   "inr": 31572.22,
-   "prevClose": 336.5400085449219,
-   "time": 1792785603
+   "inr": 31985.1,
+   "prevClose": 343.5799865722656,
+   "time": 1793390402
   },
   "V": {
-   "price": 407.92,
+   "price": 413.59,
    "cur": "USD",
-   "inr": 38841.12,
-   "prevClose": 414.3399963378906,
-   "time": 1792785603
+   "inr": 39249.69,
+   "prevClose": 410.5400085449219,
+   "time": 1793390402
   },
   "BND": {
-   "price": 71.2,
+   "price": 71.56,
    "cur": "USD",
-   "inr": 6779.49,
-   "prevClose": 71.36000061035156,
-   "time": 1792785601
+   "inr": 6791.04,
+   "prevClose": 71.37999725341797,
+   "time": 1793390402
   },
   "MID150BEES.NS": {
-   "price": 218.19,
+   "price": 220.62,
    "cur": "INR",
-   "inr": 218.19,
-   "prevClose": 222.1699981689453,
-   "time": 1793354400
+   "inr": 220.62,
+   "prevClose": 218.19000244140625,
+   "time": 1793613592
   },
   "TRENT.NS": {
-   "price": 3017.3,
+   "price": 3046.4,
    "cur": "INR",
-   "inr": 3017.3,
-   "prevClose": 2861.699951171875,
-   "time": 1793354296
+   "inr": 3046.4,
+   "prevClose": 3017.300048828125,
+   "time": 1793613575
   },
   "DIXON.NS": {
-   "price": 11000,
+   "price": 12319,
    "cur": "INR",
-   "inr": 11000,
-   "prevClose": 11488,
-   "time": 1793354296
+   "inr": 12319,
+   "prevClose": 11000,
+   "time": 1793613569
   },
   "PERSISTENT.NS": {
-   "price": 6048,
+   "price": 6051,
    "cur": "INR",
-   "inr": 6048,
-   "prevClose": 5880,
-   "time": 1793354297
+   "inr": 6051,
+   "prevClose": 6048,
+   "time": 1793613575
   },
   "POLYCAB.NS": {
-   "price": 7787,
+   "price": 7920,
    "cur": "INR",
-   "inr": 7787,
-   "prevClose": 7745,
-   "time": 1793354296
+   "inr": 7920,
+   "prevClose": 7787,
+   "time": 1793613574
   },
   "BEL.NS": {
-   "price": 369.9,
+   "price": 376.5,
    "cur": "INR",
-   "inr": 369.9,
-   "prevClose": 370,
-   "time": 1793354298
+   "inr": 376.5,
+   "prevClose": 369.8999938964844,
+   "time": 1793613573
   },
   "HAL.NS": {
-   "price": 4853.7,
+   "price": 4855,
    "cur": "INR",
-   "inr": 4853.7,
-   "prevClose": 4869.89990234375,
-   "time": 1793354297
+   "inr": 4855,
+   "prevClose": 4853.7001953125,
+   "time": 1793613569
   },
   "ETERNAL.NS": {
-   "price": 343.65,
+   "price": 344,
    "cur": "INR",
-   "inr": 343.65,
-   "prevClose": 337.8500061035156,
-   "time": 1793354303
+   "inr": 344,
+   "prevClose": 343.6499938964844,
+   "time": 1793613573
   },
   "CDSL.NS": {
-   "price": 1263,
+   "price": 1252,
    "cur": "INR",
-   "inr": 1263,
-   "prevClose": 1282,
-   "time": 1793354299
+   "inr": 1252,
+   "prevClose": 1263,
+   "time": 1793613573
   },
   "KPITTECH.NS": {
-   "price": 530.25,
+   "price": 531.95,
    "cur": "INR",
-   "inr": 530.25,
-   "prevClose": 543.7000122070312,
-   "time": 1793354297
+   "inr": 531.95,
+   "prevClose": 530.25,
+   "time": 1793613575
   },
   "BSE.NS": {
-   "price": 3510.4,
+   "price": 3490,
    "cur": "INR",
-   "inr": 3510.4,
-   "prevClose": 3502,
-   "time": 1793354298
+   "inr": 3490,
+   "prevClose": 3510.39990234375,
+   "time": 1793613569
   },
   "AVGO": {
-   "price": 345,
+   "price": 326.08,
    "cur": "USD",
-   "inr": 32757.75,
-   "prevClose": 351.80999755859375,
-   "time": 1793304001
+   "inr": 30944.99,
+   "prevClose": 345,
+   "time": 1793390401
   },
   "META": {
-   "price": 624.52,
+   "price": 614.99,
    "cur": "USD",
-   "inr": 59298.17,
-   "prevClose": 612.489990234375,
-   "time": 1793304001
+   "inr": 58362.55,
+   "prevClose": 624.52001953125,
+   "time": 1793390401
   },
   "TSLA": {
-   "price": 403.3,
+   "price": 399.81,
    "cur": "USD",
-   "inr": 38293.33,
-   "prevClose": 404.2200012207031,
-   "time": 1793304000
+   "inr": 37941.97,
+   "prevClose": 403.29998779296875,
+   "time": 1793390400
   },
   "AMD": {
-   "price": 566.42,
+   "price": 504.8,
    "cur": "USD",
-   "inr": 53781.58,
-   "prevClose": 578.4400024414062,
-   "time": 1793304001
+   "inr": 47905.52,
+   "prevClose": 566.4199829101562,
+   "time": 1793390401
   },
   "PLTR": {
-   "price": 186.28,
+   "price": 184.11,
    "cur": "USD",
-   "inr": 17685.42,
+   "inr": 17472.04,
    "prevClose": 196.4199981689453,
-   "time": 1793378252
+   "time": 1793390400
   },
   "SMH": {
-   "price": 561.67,
+   "price": 522.49,
    "cur": "USD",
-   "inr": 53330.57,
-   "prevClose": 567.6699829101562,
-   "time": 1793304001
+   "inr": 49584.3,
+   "prevClose": 561.6699829101562,
+   "time": 1793390400
   },
   "ARKK": {
-   "price": 85.97,
+   "price": 80.75,
    "cur": "USD",
-   "inr": 8162.85,
-   "prevClose": 86.12000274658203,
-   "time": 1793304000
+   "inr": 7663.18,
+   "prevClose": 85.97000122070312,
+   "time": 1793390400
   },
   "CRWD": {
-   "price": 246.54,
+   "price": 250.43,
    "cur": "USD",
-   "inr": 23406.51,
+   "inr": 23765.81,
    "prevClose": 261.1499938964844,
-   "time": 1793378193
+   "time": 1793390401
   },
   "NFLX": {
-   "price": 62.05,
+   "price": 62.08,
    "cur": "USD",
-   "inr": 5891.65,
-   "prevClose": 61.9900016784668,
-   "time": 1793304001
+   "inr": 5891.39,
+   "prevClose": 62.04999923706055,
+   "time": 1793390400
   }
  },
- "fx": 94.94,
+ "fx": 94.9,
  "lastCheck": "Fri, 30 Oct 2026, 22:10",
  "settings": {
   "model": "claude-sonnet-5-5",
@@ -1130,5 +1265,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Fri, 30 Oct 2026, 22:10"
+ "updatedAt": "Mon, 02 Nov 2026, 17:46"
 }
