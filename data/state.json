@@ -262,8 +262,8 @@
     },
     {
      "date": "2026-11-03",
-     "value": 19423.96,
-     "bench": 18942.63
+     "value": 19320.3,
+     "bench": 18888.12
     }
    ],
    "bench": {
@@ -277,21 +277,21 @@
    },
    "risk": {
     "date": "2026-11-03",
-    "value": 19424,
-    "cashPct": 55.01,
+    "value": 19320,
+    "cashPct": 55.3,
     "largest": {
      "symbol": "XLE",
-     "pct": 24.66
+     "pct": 24.72
     },
-    "volPct": 7.43,
-    "worstDayPct": -1.3,
-    "worstMonthPct": -3.8,
+    "volPct": 7.39,
+    "worstDayPct": -1.28,
+    "worstMonthPct": -3.79,
     "avgCorr": -0.1,
     "byMarket": {
      "India": 0,
-     "US": 44.99
+     "US": 44.7
     },
-    "worstMonthLossINR": -739
+    "worstMonthLossINR": -732
    },
    "startedOn": "2026-10-24",
    "lastRunDate": "2026-11-03",
@@ -497,6 +497,11 @@
      "date": "2026-11-02",
      "value": 19948.44,
      "bench": 20165.82
+    },
+    {
+     "date": "2026-11-03",
+     "value": 20033.26,
+     "bench": 20299.96
     }
    ],
    "bench": {
@@ -511,22 +516,22 @@
     "date": "2026-10-26"
    },
    "risk": {
-    "date": "2026-11-02",
-    "value": 19948,
-    "cashPct": 30.78,
+    "date": "2026-11-03",
+    "value": 20033,
+    "cashPct": 30.65,
     "largest": {
      "symbol": "NIFTYBEES",
-     "pct": 14.66
+     "pct": 14.83
     },
-    "volPct": 8.24,
-    "worstDayPct": -1.1,
-    "worstMonthPct": -2.68,
-    "avgCorr": 0.25,
+    "volPct": 7.5,
+    "worstDayPct": -1.08,
+    "worstMonthPct": -2.49,
+    "avgCorr": 0.14,
     "byMarket": {
-     "India": 28.57,
-     "US": 40.65
+     "India": 29.05,
+     "US": 40.29
     },
-    "worstMonthLossINR": -535
+    "worstMonthLossINR": -498
    },
    "startedOn": "2026-10-24",
    "lastRunDate": "2026-11-02",
@@ -817,8 +822,8 @@
     },
     {
      "date": "2026-11-03",
-     "value": 19747.18,
-     "bench": 20036.26
+     "value": 19814.95,
+     "bench": 20108.05
     }
    ],
    "bench": {
@@ -834,21 +839,21 @@
    },
    "risk": {
     "date": "2026-11-03",
-    "value": 19747,
-    "cashPct": 15.63,
+    "value": 19815,
+    "cashPct": 15.58,
     "largest": {
      "symbol": "HAL",
-     "pct": 25.11
+     "pct": 25.02
     },
-    "volPct": 14.69,
-    "worstDayPct": -1.75,
-    "worstMonthPct": -4.19,
-    "avgCorr": 0.08,
+    "volPct": 14.85,
+    "worstDayPct": -1.58,
+    "worstMonthPct": -4.15,
+    "avgCorr": 0.09,
     "byMarket": {
-     "India": 49.89,
-     "US": 34.48
+     "India": 49.71,
+     "US": 34.71
     },
-    "worstMonthLossINR": -828
+    "worstMonthLossINR": -822
    },
    "startedOn": "2026-10-24",
    "lastRunDate": "2026-11-03",
@@ -864,11 +869,11 @@
    "time": 1793700002
   },
   "DBC": {
-   "price": 32.46,
+   "price": 32.37,
    "cur": "USD",
-   "inr": 3075.26,
-   "prevClose": 33.61000061035156,
-   "time": 1793653200
+   "inr": 3066.41,
+   "prevClose": 32.459999084472656,
+   "time": 1793727925
   },
   "GLD": {
    "price": 361.65,
@@ -906,11 +911,11 @@
    "time": 1793653200
   },
   "CPER": {
-   "price": 39.37,
+   "price": 38.47,
    "cur": "USD",
-   "inr": 3729.91,
-   "prevClose": 38.9900016784668,
-   "time": 1793653200
+   "inr": 3644.26,
+   "prevClose": 39.369998931884766,
+   "time": 1793727869
   },
   "DBA": {
    "price": 26.8,
@@ -934,11 +939,11 @@
    "time": 1793653200
   },
   "XLE": {
-   "price": 67.25,
+   "price": 67.08,
    "cur": "USD",
-   "inr": 6371.26,
-   "prevClose": 70.0199966430664,
-   "time": 1793653200
+   "inr": 6354.01,
+   "prevClose": 67.25,
+   "time": 1793727928
   },
   "URA": {
    "price": 32.93,
@@ -962,11 +967,11 @@
    "time": 1793699999
   },
   "VOO": {
-   "price": 693.97,
+   "price": 694.05,
    "cur": "USD",
-   "inr": 65850.81,
-   "prevClose": 694.8099975585938,
-   "time": 1793650616
+   "inr": 65747.36,
+   "prevClose": 691.3200073242188,
+   "time": 1793727926
   },
   "JUNIORBEES.NS": {
    "price": 744.17,
@@ -983,11 +988,11 @@
    "time": 1793613569
   },
   "ICICIBANK.NS": {
-   "price": 1387.4,
+   "price": 1424.5,
    "cur": "INR",
-   "inr": 1387.4,
-   "prevClose": 1386.5999755859375,
-   "time": 1793613569
+   "inr": 1424.5,
+   "prevClose": 1387.4000244140625,
+   "time": 1793699978
   },
   "RELIANCE.NS": {
    "price": 1300,
@@ -1046,25 +1051,25 @@
    "time": 1793613569
   },
   "QQQ": {
-   "price": 681.09,
+   "price": 686.25,
    "cur": "USD",
-   "inr": 64526.47,
-   "prevClose": 690.489990234375,
-   "time": 1793653200
+   "inr": 65007.99,
+   "prevClose": 681.0900268554688,
+   "time": 1793727930
   },
   "VXUS": {
-   "price": 82.78,
+   "price": 82.33,
    "cur": "USD",
-   "inr": 7855.47,
-   "prevClose": 82.37000274658203,
-   "time": 1793650615
+   "inr": 7799.59,
+   "prevClose": 82.58999633789062,
+   "time": 1793727927
   },
   "MSFT": {
-   "price": 513.1,
+   "price": 518.69,
    "cur": "USD",
-   "inr": 48687.87,
-   "prevClose": 521.9099731445312,
-   "time": 1793650613
+   "inr": 49135.5,
+   "prevClose": 507.1199951171875,
+   "time": 1793727930
   },
   "AAPL": {
    "price": 344.63,
@@ -1249,11 +1254,11 @@
    "time": 1793653200
   },
   "CRWD": {
-   "price": 241.81,
+   "price": 245.44,
    "cur": "USD",
-   "inr": 22909.08,
-   "prevClose": 250.42999267578125,
-   "time": 1793653201
+   "inr": 23250.53,
+   "prevClose": 241.80999755859375,
+   "time": 1793727929
   },
   "NFLX": {
    "price": 62.34,
@@ -1263,8 +1268,8 @@
    "time": 1793653200
   }
  },
- "fx": 94.74,
- "lastCheck": "Tue, 03 Nov 2026, 01:46",
+ "fx": 94.73,
+ "lastCheck": "Tue, 03 Nov 2026, 23:15",
  "settings": {
   "model": "claude-sonnet-5-5",
   "paused": false,
@@ -1333,5 +1338,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Tue, 03 Nov 2026, 17:20"
+ "updatedAt": "Tue, 03 Nov 2026, 23:15"
 }
