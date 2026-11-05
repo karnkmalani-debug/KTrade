@@ -329,8 +329,8 @@
     },
     {
      "date": "2026-11-05",
-     "value": 18980.82,
-     "bench": 18207.84
+     "value": 18889.58,
+     "bench": 18262.11
     }
    ],
    "bench": {
@@ -344,21 +344,21 @@
    },
    "risk": {
     "date": "2026-11-05",
-    "value": 18981,
-    "cashPct": 48.54,
+    "value": 18890,
+    "cashPct": 48.78,
     "largest": {
      "symbol": "GOLDBEES",
-     "pct": 31.12
+     "pct": 31.27
     },
-    "volPct": 8.56,
-    "worstDayPct": -1.52,
-    "worstMonthPct": -4.32,
-    "avgCorr": 0.08,
+    "volPct": 7.76,
+    "worstDayPct": -1.37,
+    "worstMonthPct": -4.55,
+    "avgCorr": -0.11,
     "byMarket": {
-     "India": 31.12,
-     "US": 20.34
+     "India": 31.27,
+     "US": 19.95
     },
-    "worstMonthLossINR": -819
+    "worstMonthLossINR": -860
    },
    "startedOn": "2026-10-24",
    "lastRunDate": "2026-11-05",
@@ -574,6 +574,11 @@
      "date": "2026-11-04",
      "value": 20341.65,
      "bench": 20574.08
+    },
+    {
+     "date": "2026-11-05",
+     "value": 20281.81,
+     "bench": 20394.7
     }
    ],
    "bench": {
@@ -588,22 +593,22 @@
     "date": "2026-10-26"
    },
    "risk": {
-    "date": "2026-11-04",
-    "value": 20342,
-    "cashPct": 30.19,
+    "date": "2026-11-05",
+    "value": 20282,
+    "cashPct": 30.28,
     "largest": {
      "symbol": "NIFTYBEES",
-     "pct": 14.75
+     "pct": 15.15
     },
-    "volPct": 7.97,
-    "worstDayPct": -1.1,
-    "worstMonthPct": -2.45,
-    "avgCorr": 0.16,
+    "volPct": 7.85,
+    "worstDayPct": -1.06,
+    "worstMonthPct": -2.55,
+    "avgCorr": 0.12,
     "byMarket": {
-     "India": 28.75,
-     "US": 41.06
+     "India": 29.94,
+     "US": 39.78
     },
-    "worstMonthLossINR": -499
+    "worstMonthLossINR": -516
    },
    "startedOn": "2026-10-24",
    "lastRunDate": "2026-11-02",
@@ -611,7 +616,7 @@
   },
   "aggressive": {
    "id": "aggressive",
-   "cash": 3087.0663036899978,
+   "cash": 5125.161009252498,
    "holdings": {
     "HAL.NS": {
      "qty": 1,
@@ -627,14 +632,20 @@
      "qty": 0.0702,
      "avg": 68293.81065,
      "since": "2026-10-27"
-    },
-    "CRWD": {
-     "qty": 0.0995,
-     "avg": 25107.2224,
-     "since": "2026-10-27"
     }
    },
    "trades": [
+    {
+     "date": "2026-11-05",
+     "side": "SELL",
+     "sym": "CRWD",
+     "qty": 0.0995,
+     "price": 20638.15,
+     "fee": 15.4,
+     "pnl": -460.07,
+     "reason": "Stop-loss hit (−12%)",
+     "conf": 1
+    },
     {
      "date": "2026-11-03",
      "side": "SELL",
@@ -942,8 +953,8 @@
     },
     {
      "date": "2026-11-05",
-     "value": 20000.48,
-     "bench": 20518.1
+     "value": 19509.65,
+     "bench": 19958.28
     }
    ],
    "bench": {
@@ -959,21 +970,21 @@
    },
    "risk": {
     "date": "2026-11-05",
-    "value": 20000,
-    "cashPct": 15.43,
+    "value": 19510,
+    "cashPct": 26.27,
     "largest": {
      "symbol": "HAL",
-     "pct": 25.21
+     "pct": 25.85
     },
-    "volPct": 14.65,
-    "worstDayPct": -1.77,
-    "worstMonthPct": -4.2,
-    "avgCorr": 0.08,
+    "volPct": 12,
+    "worstDayPct": -1.82,
+    "worstMonthPct": -4.45,
+    "avgCorr": 0.04,
     "byMarket": {
-     "India": 50.29,
-     "US": 34.27
+     "India": 51.56,
+     "US": 22.17
     },
-    "worstMonthLossINR": -840
+    "worstMonthLossINR": -868
    },
    "startedOn": "2026-10-24",
    "lastRunDate": "2026-11-05",
@@ -989,11 +1000,11 @@
    "time": 1793872799
   },
   "DBC": {
-   "price": 31.29,
+   "price": 31.39,
    "cur": "USD",
-   "inr": 2955.97,
-   "prevClose": 32.439998626708984,
-   "time": 1793826000
+   "inr": 2964.78,
+   "prevClose": 31.290000915527344,
+   "time": 1793901373
   },
   "GLD": {
    "price": 372.49,
@@ -1031,11 +1042,11 @@
    "time": 1793826000
   },
   "CPER": {
-   "price": 38.59,
+   "price": 37.68,
    "cur": "USD",
-   "inr": 3645.6,
-   "prevClose": 38.5099983215332,
-   "time": 1793826000
+   "inr": 3559.44,
+   "prevClose": 38.59000015258789,
+   "time": 1793901423
   },
   "DBA": {
    "price": 26.45,
@@ -1087,11 +1098,11 @@
    "time": 1793872799
   },
   "VOO": {
-   "price": 706.76,
+   "price": 677.58,
    "cur": "USD",
-   "inr": 66880.79,
-   "prevClose": 693.5399780273438,
-   "time": 1793815018
+   "inr": 64007.59,
+   "prevClose": 704.780029296875,
+   "time": 1793901471
   },
   "JUNIORBEES.NS": {
    "price": 744.17,
@@ -1108,11 +1119,11 @@
    "time": 1793613569
   },
   "ICICIBANK.NS": {
-   "price": 1424.1,
+   "price": 1500,
    "cur": "INR",
-   "inr": 1424.1,
-   "prevClose": 1424.5,
-   "time": 1793786364
+   "inr": 1500,
+   "prevClose": 1424.0999755859375,
+   "time": 1793872711
   },
   "RELIANCE.NS": {
    "price": 1300,
@@ -1171,25 +1182,25 @@
    "time": 1793613569
   },
   "QQQ": {
-   "price": 691.95,
+   "price": 652.24,
    "cur": "USD",
-   "inr": 65368.52,
-   "prevClose": 685.280029296875,
-   "time": 1793826001
+   "inr": 61613.76,
+   "prevClose": 691.9500122070312,
+   "time": 1793901471
   },
   "VXUS": {
-   "price": 83.97,
+   "price": 81.36,
    "cur": "USD",
-   "inr": 7946.55,
-   "prevClose": 82.25,
-   "time": 1793815018
+   "inr": 7686.14,
+   "prevClose": 83.87999725341797,
+   "time": 1793901472
   },
   "MSFT": {
-   "price": 553.9,
+   "price": 540.35,
    "cur": "USD",
-   "inr": 52415.18,
-   "prevClose": 520.989990234375,
-   "time": 1793815018
+   "inr": 51044.16,
+   "prevClose": 555.7999877929688,
+   "time": 1793901471
   },
   "AAPL": {
    "price": 344.63,
@@ -1374,11 +1385,11 @@
    "time": 1793826000
   },
   "CRWD": {
-   "price": 241,
+   "price": 218.47,
    "cur": "USD",
-   "inr": 22767.27,
-   "prevClose": 244.67999267578125,
-   "time": 1793826000
+   "inr": 20638.15,
+   "prevClose": 241,
+   "time": 1793901470
   },
   "NFLX": {
    "price": 66.39,
@@ -1389,7 +1400,7 @@
   }
  },
  "fx": 94.47,
- "lastCheck": "Wed, 04 Nov 2026, 23:27 — Stop-loss: sold XLE",
+ "lastCheck": "Thu, 05 Nov 2026, 23:27 — Stop-loss: sold CRWD",
  "settings": {
   "model": "claude-sonnet-5-5",
   "paused": false,
@@ -1458,5 +1469,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Thu, 05 Nov 2026, 17:41"
+ "updatedAt": "Thu, 05 Nov 2026, 23:27"
 }
