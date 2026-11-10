@@ -94,6 +94,15 @@
    ],
    "runs": [
     {
+     "date": "2026-11-10",
+     "time": "Tue, 10 Nov 2026, 17:58",
+     "view": "Market closed today (holiday/weekend) — no trades.",
+     "actions": [],
+     "log": [],
+     "estCostUSD": 0,
+     "manual": false
+    },
+    {
      "date": "2026-11-09",
      "time": "Mon, 09 Nov 2026, 18:15",
      "view": "Oil is unwinding its geopolitical supply premium, with Brent down about 16% last week on US-Iran diplomacy. Gold has turned up and is back above $4,100, while copper is soft but still supported by long-term supply deficit forecasts. I'm holding gold and copper, adding some gold-miner exposure, and keeping about 30% in cash because the commodity trends are still weak.",
@@ -399,7 +408,7 @@
     "worstMonthLossINR": -806
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-11-09",
+   "lastRunDate": "2026-11-10",
    "lastRunWeek": "2026-11-09"
   },
   "longterm": {
@@ -830,6 +839,15 @@
    ],
    "runs": [
     {
+     "date": "2026-11-10",
+     "time": "Tue, 10 Nov 2026, 17:58",
+     "view": "Market closed today (holiday/weekend) — no trades.",
+     "actions": [],
+     "log": [],
+     "estCostUSD": 0,
+     "manual": false
+    },
+    {
      "date": "2026-11-09",
      "time": "Mon, 09 Nov 2026, 18:15",
      "view": "The Nasdaq-100 fell 6.3% on Nov 5 in an AI and chip selloff, which followed fears of tighter AI regulation after the midterms. It bounced about 1.5% on Friday and my data shows another +1.4% today. India is much stronger: the Nifty closed at 25,045, its highest close in more than eight months. I'm staying overweight India, holding QQQ, which is oversold (RSI about 30) and still above its 12% stop, and adding one small high-momentum Indian position.",
@@ -1155,7 +1173,7 @@
     "worstMonthLossINR": -835
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-11-09",
+   "lastRunDate": "2026-11-10",
    "lastRunWeek": "2026-11-09"
   }
  },
@@ -1637,5 +1655,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Tue, 10 Nov 2026, 02:09"
+ "updatedAt": "Tue, 10 Nov 2026, 17:58"
 }
