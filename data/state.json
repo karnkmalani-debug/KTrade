@@ -121,6 +121,25 @@
    ],
    "runs": [
     {
+     "date": "2026-11-18",
+     "time": "Wed, 18 Nov 2026, 18:26",
+     "view": "Commodities are in a broad selloff. Gold is at 14-month lows because the market expects the Fed to keep raising rates, and risk assets are also under pressure. Oil is choppy: a Middle East supply recovery has cut the risk premium, but Gulf shipping risks keep it supported. Most commodity ETFs are deeply oversold, and DBC and PDBC have an RSI of about 9, so I'm keeping most of the portfolio in cash and adding a small diversified starter position in case of a rebound.",
+     "actions": [
+      {
+       "action": "BUY",
+       "symbol": "DBC",
+       "amount_inr": 4000,
+       "confidence": 0.5,
+       "reason": "Broad commodity index with an extreme oversold RSI of 9. It diversifies away from the single oil holding and tracks the benchmark. The position is small, with 10% stop-loss discipline, and the rest stays in cash while the trend is down."
+      }
+     ],
+     "log": [
+      "Skipped BUY DBC: confidence 0.5"
+     ],
+     "estCostUSD": 0.058,
+     "manual": false
+    },
+    {
      "date": "2026-11-17",
      "time": "Tue, 17 Nov 2026, 18:37",
      "view": "Commodities are in a broad risk-off selloff. Fed rate-hike bets and a 19-month-high dollar have pushed gold and silver to 12-month lows. Copper is at a four-month low on the tech and AI rout and weak China data. Oil is falling on the IEA's Q4 surplus call and Goldman's oversupply view, while Iran de-escalation hopes erode the geopolitical premium. Nothing has a clear tailwind yet, so holding cash is the best position for now. I'll wait for the dollar and yields to stabilise before adding exposure.",
@@ -540,6 +559,11 @@
      "date": "2026-11-17",
      "value": 18126.58,
      "bench": 17414.41
+    },
+    {
+     "date": "2026-11-18",
+     "value": 18144.72,
+     "bench": 17374.31
     }
    ],
    "bench": {
@@ -552,25 +576,25 @@
     "date": "2026-10-26"
    },
    "risk": {
-    "date": "2026-11-17",
-    "value": 18127,
-    "cashPct": 79.11,
+    "date": "2026-11-18",
+    "value": 18145,
+    "cashPct": 79.03,
     "largest": {
      "symbol": "BNO",
-     "pct": 20.89
+     "pct": 20.97
     },
     "volPct": 10.18,
-    "worstDayPct": -1.8,
-    "worstMonthPct": -5.96,
+    "worstDayPct": -1.81,
+    "worstMonthPct": -5.99,
     "avgCorr": null,
     "byMarket": {
      "India": 0,
-     "US": 20.89
+     "US": 20.97
     },
-    "worstMonthLossINR": -1081
+    "worstMonthLossINR": -1086
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-11-17",
+   "lastRunDate": "2026-11-18",
    "lastRunWeek": "2026-11-16"
   },
   "longterm": {
@@ -1061,6 +1085,25 @@
    ],
    "runs": [
     {
+     "date": "2026-11-18",
+     "time": "Wed, 18 Nov 2026, 18:27",
+     "view": "US tech is in a correction, with the Nasdaq more than 10% off its October peak. Rates are a risk, with Treasury yields above 5% and talk of Fed tightening. Nvidia's record quarter and strong guidance lifted it about 4% after hours, so a relief bounce is likely and I'm holding QQQ rather than selling just above its stop. India is steadier, with FII buying and a small pullback today, so I'm using idle cash for a small mid-cap ETF position and not chasing overbought names.",
+     "actions": [
+      {
+       "action": "BUY",
+       "symbol": "MID150BEES.NS",
+       "amount_inr": 1800,
+       "confidence": 0.45,
+       "reason": "Deploy idle cash into diversified India mid-cap growth at low cost. Avoids chasing overbought single stocks (ETERNAL, CDSL and BEL all have RSI above 75). Keeps cash above 3%."
+      }
+     ],
+     "log": [
+      "Skipped BUY MID150BEES: confidence 0.45"
+     ],
+     "estCostUSD": 0.206,
+     "manual": false
+    },
+    {
      "date": "2026-11-17",
      "time": "Tue, 17 Nov 2026, 18:37",
      "view": "US tech and semiconductors are in a sharp risk-off. The Nasdaq 100 fell about 6% over two sessions on export-control tightening and AI-regulation fears, and Nvidia reports after the close today. I'm holding and not adding into that binary event. India holdings (ETERNAL, TRENT) are holding up, though ETERNAL is overbought at RSI 81 and already at the 25% cap.",
@@ -1469,6 +1512,11 @@
      "date": "2026-11-17",
      "value": 19532.71,
      "bench": 20387.93
+    },
+    {
+     "date": "2026-11-18",
+     "value": 19343.88,
+     "bench": 20252.17
     }
    ],
    "bench": {
@@ -1483,133 +1531,133 @@
     "date": "2026-10-26"
    },
    "risk": {
-    "date": "2026-11-17",
-    "value": 19533,
-    "cashPct": 12.35,
+    "date": "2026-11-18",
+    "value": 19344,
+    "cashPct": 12.47,
     "largest": {
      "symbol": "ETERNAL",
-     "pct": 24.96
+     "pct": 24.6
     },
-    "volPct": 13.48,
-    "worstDayPct": -1.71,
-    "worstMonthPct": -3.39,
+    "volPct": 13.5,
+    "worstDayPct": -1.7,
+    "worstMonthPct": -3.37,
     "avgCorr": 0.07,
     "byMarket": {
-     "India": 65.42,
-     "US": 22.23
+     "India": 65.26,
+     "US": 22.27
     },
-    "worstMonthLossINR": -663
+    "worstMonthLossINR": -652
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-11-17",
+   "lastRunDate": "2026-11-18",
    "lastRunWeek": "2026-11-16"
   }
  },
  "prices": {
   "NIFTYBEES.NS": {
-   "price": 289.6,
+   "price": 287.89,
    "cur": "INR",
-   "inr": 289.6,
-   "prevClose": 286.6400146484375,
-   "time": 1794909603
+   "inr": 287.89,
+   "prevClose": 289.6000061035156,
+   "time": 1794995999
   },
   "DBC": {
-   "price": 30.29,
+   "price": 30.19,
    "cur": "USD",
-   "inr": 2830.44,
+   "inr": 2820.65,
    "prevClose": 30.25,
-   "time": 1794942207
+   "time": 1794949200
   },
   "GLD": {
-   "price": 352.93,
+   "price": 352.48,
    "cur": "USD",
-   "inr": 32984.84,
-   "prevClose": 355.45001220703125,
-   "time": 1794862800
+   "inr": 32932.21,
+   "prevClose": 352.92999267578125,
+   "time": 1794949200
   },
   "SLV": {
-   "price": 42.39,
+   "price": 42.64,
    "cur": "USD",
-   "inr": 3961.77,
-   "prevClose": 44.130001068115234,
-   "time": 1794862800
+   "inr": 3983.86,
+   "prevClose": 42.38999938964844,
+   "time": 1794949200
   },
   "USO": {
-   "price": 140.03,
+   "price": 140.24,
    "cur": "USD",
-   "inr": 13087.2,
-   "prevClose": 145.5800018310547,
-   "time": 1794862800
+   "inr": 13102.62,
+   "prevClose": 140.02999877929688,
+   "time": 1794949200
   },
   "BNO": {
-   "price": 59.34,
+   "price": 58.96,
    "cur": "USD",
-   "inr": 5545.92,
+   "inr": 5508.63,
    "prevClose": 58.65999984741211,
-   "time": 1794942400
+   "time": 1794949200
   },
   "UNG": {
-   "price": 9.82,
+   "price": 10.04,
    "cur": "USD",
-   "inr": 917.78,
-   "prevClose": 10.149999618530273,
-   "time": 1794862800
+   "inr": 938.04,
+   "prevClose": 9.819999694824219,
+   "time": 1794949200
   },
   "CPER": {
-   "price": 36.03,
+   "price": 35.99,
    "cur": "USD",
-   "inr": 3367.36,
-   "prevClose": 36.529998779296875,
-   "time": 1794862800
+   "inr": 3362.55,
+   "prevClose": 36.029998779296875,
+   "time": 1794949200
   },
   "DBA": {
-   "price": 26.39,
+   "price": 26.38,
    "cur": "USD",
-   "inr": 2466.41,
-   "prevClose": 26.549999237060547,
-   "time": 1794862800
+   "inr": 2464.68,
+   "prevClose": 26.389999389648438,
+   "time": 1794949200
   },
   "PDBC": {
-   "price": 18.02,
+   "price": 17.98,
    "cur": "USD",
-   "inr": 1684.15,
-   "prevClose": 18.34000015258789,
-   "time": 1794862801
+   "inr": 1679.87,
+   "prevClose": 18.020000457763672,
+   "time": 1794949200
   },
   "GDX": {
-   "price": 78.95,
+   "price": 79.57,
    "cur": "USD",
-   "inr": 7378.67,
-   "prevClose": 81.63999938964844,
-   "time": 1794862800
+   "inr": 7434.23,
+   "prevClose": 78.94999694824219,
+   "time": 1794949200
   },
   "XLE": {
-   "price": 63.69,
+   "price": 63.36,
    "cur": "USD",
-   "inr": 5952.47,
-   "prevClose": 64.95999908447266,
-   "time": 1794862800
+   "inr": 5919.72,
+   "prevClose": 63.689998626708984,
+   "time": 1794949200
   },
   "URA": {
-   "price": 30.44,
+   "price": 30.04,
    "cur": "USD",
-   "inr": 2844.92,
-   "prevClose": 31.84000015258789,
-   "time": 1794862800
+   "inr": 2806.64,
+   "prevClose": 30.440000534057617,
+   "time": 1794949200
   },
   "GOLDBEES.NS": {
-   "price": 109.92,
+   "price": 107.85,
    "cur": "INR",
-   "inr": 109.92,
-   "prevClose": 111.91000366210938,
-   "time": 1794909600
+   "inr": 107.85,
+   "prevClose": 109.91999816894531,
+   "time": 1794996000
   },
   "SILVERBEES.NS": {
-   "price": 160.75,
+   "price": 155.75,
    "cur": "INR",
-   "inr": 160.75,
-   "prevClose": 160.61000061035156,
-   "time": 1794909601
+   "inr": 155.75,
+   "prevClose": 160.75,
+   "time": 1794996000
   },
   "VOO": {
    "price": 671.8,
@@ -1696,11 +1744,11 @@
    "time": 1794823153
   },
   "QQQ": {
-   "price": 654.04,
+   "price": 656.95,
    "cur": "USD",
-   "inr": 61126.58,
+   "inr": 61378.84,
    "prevClose": 661.75,
-   "time": 1794942399
+   "time": 1794949200
   },
   "VXUS": {
    "price": 79.99,
@@ -1738,11 +1786,11 @@
    "time": 1794603600
   },
   "NVDA": {
-   "price": 156.14,
+   "price": 155.46,
    "cur": "USD",
-   "inr": 14592.84,
-   "prevClose": 162.85000610351562,
-   "time": 1794862801
+   "inr": 14524.63,
+   "prevClose": 156.13999938964844,
+   "time": 1794949200
   },
   "BRK-B": {
    "price": 590.89,
@@ -1773,147 +1821,147 @@
    "time": 1794603601
   },
   "MID150BEES.NS": {
-   "price": 234.24,
+   "price": 231.87,
    "cur": "INR",
-   "inr": 234.24,
-   "prevClose": 233.94000244140625,
-   "time": 1794909599
+   "inr": 231.87,
+   "prevClose": 234.24000549316406,
+   "time": 1794995999
   },
   "TRENT.NS": {
-   "price": 3176.3,
+   "price": 3190,
    "cur": "INR",
-   "inr": 3176.3,
-   "prevClose": 3165.199951171875,
-   "time": 1794909496
+   "inr": 3190,
+   "prevClose": 3176.300048828125,
+   "time": 1794995928
   },
   "DIXON.NS": {
-   "price": 13081,
+   "price": 12615,
    "cur": "INR",
-   "inr": 13081,
-   "prevClose": 12890,
-   "time": 1794909491
+   "inr": 12615,
+   "prevClose": 13081,
+   "time": 1794995935
   },
   "PERSISTENT.NS": {
-   "price": 5911,
+   "price": 5857,
    "cur": "INR",
-   "inr": 5911,
-   "prevClose": 5978.5,
-   "time": 1794909494
+   "inr": 5857,
+   "prevClose": 5911,
+   "time": 1794995929
   },
   "POLYCAB.NS": {
-   "price": 7702,
+   "price": 7307.5,
    "cur": "INR",
-   "inr": 7702,
-   "prevClose": 7955.5,
-   "time": 1794909495
+   "inr": 7307.5,
+   "prevClose": 7702,
+   "time": 1794995928
   },
   "BEL.NS": {
-   "price": 399.55,
+   "price": 395.8,
    "cur": "INR",
-   "inr": 399.55,
-   "prevClose": 401.3999938964844,
-   "time": 1794909493
+   "inr": 395.8,
+   "prevClose": 399.54998779296875,
+   "time": 1794995935
   },
   "HAL.NS": {
-   "price": 4727,
+   "price": 4675,
    "cur": "INR",
-   "inr": 4727,
-   "prevClose": 4809.7998046875,
-   "time": 1794909494
+   "inr": 4675,
+   "prevClose": 4727,
+   "time": 1794995935
   },
   "ETERNAL.NS": {
-   "price": 375.05,
+   "price": 366,
    "cur": "INR",
-   "inr": 375.05,
-   "prevClose": 363.6499938964844,
-   "time": 1794909494
+   "inr": 366,
+   "prevClose": 375.04998779296875,
+   "time": 1794995935
   },
   "CDSL.NS": {
-   "price": 1439.8,
+   "price": 1416.6,
    "cur": "INR",
-   "inr": 1439.8,
-   "prevClose": 1433.9000244140625,
-   "time": 1794909494
+   "inr": 1416.6,
+   "prevClose": 1439.800048828125,
+   "time": 1794995928
   },
   "KPITTECH.NS": {
-   "price": 531.65,
+   "price": 521.75,
    "cur": "INR",
-   "inr": 531.65,
-   "prevClose": 536.2999877929688,
-   "time": 1794909495
+   "inr": 521.75,
+   "prevClose": 531.6500244140625,
+   "time": 1794995935
   },
   "BSE.NS": {
-   "price": 3864.9,
+   "price": 3755.7,
    "cur": "INR",
-   "inr": 3864.9,
-   "prevClose": 3887.39990234375,
-   "time": 1794909491
+   "inr": 3755.7,
+   "prevClose": 3864.89990234375,
+   "time": 1794995935
   },
   "AVGO": {
-   "price": 333.4,
+   "price": 341.6,
    "cur": "USD",
-   "inr": 31159.56,
-   "prevClose": 347.010009765625,
-   "time": 1794862801
+   "inr": 31915.69,
+   "prevClose": 333.3999938964844,
+   "time": 1794949201
   },
   "META": {
-   "price": 626.41,
+   "price": 618.87,
    "cur": "USD",
-   "inr": 58544.28,
-   "prevClose": 641.6900024414062,
-   "time": 1794862801
+   "inr": 57821.02,
+   "prevClose": 626.4099731445312,
+   "time": 1794949201
   },
   "TSLA": {
-   "price": 379.74,
+   "price": 380.11,
    "cur": "USD",
-   "inr": 35490.5,
-   "prevClose": 390.2200012207031,
-   "time": 1794862800
+   "inr": 35513.68,
+   "prevClose": 379.739990234375,
+   "time": 1794949201
   },
   "AMD": {
-   "price": 504.28,
+   "price": 503.41,
    "cur": "USD",
-   "inr": 47130.01,
-   "prevClose": 534.0599975585938,
-   "time": 1794862801
+   "inr": 47033.6,
+   "prevClose": 504.2799987792969,
+   "time": 1794949200
   },
   "PLTR": {
-   "price": 160.39,
+   "price": 156.56,
    "cur": "USD",
-   "inr": 14990.05,
-   "prevClose": 167.99000549316406,
-   "time": 1794862800
+   "inr": 14627.4,
+   "prevClose": 160.38999938964844,
+   "time": 1794949200
   },
   "SMH": {
-   "price": 461.9,
+   "price": 460.1,
    "cur": "USD",
-   "inr": 43169.17,
-   "prevClose": 486.75,
-   "time": 1794862801
+   "inr": 42987.14,
+   "prevClose": 461.8999938964844,
+   "time": 1794949200
   },
   "ARKK": {
-   "price": 71.55,
+   "price": 70.84,
    "cur": "USD",
-   "inr": 6687.06,
-   "prevClose": 74.98999786376953,
-   "time": 1794862800
+   "inr": 6618.58,
+   "prevClose": 71.55000305175781,
+   "time": 1794949200
   },
   "CRWD": {
-   "price": 223.21,
+   "price": 219.58,
    "cur": "USD",
-   "inr": 20861.21,
-   "prevClose": 226.61000061035156,
-   "time": 1794862801
+   "inr": 20515.36,
+   "prevClose": 223.2100067138672,
+   "time": 1794949201
   },
   "NFLX": {
-   "price": 60.75,
+   "price": 59.68,
    "cur": "USD",
-   "inr": 5677.69,
-   "prevClose": 62.150001525878906,
-   "time": 1794862801
+   "inr": 5575.9,
+   "prevClose": 60.75,
+   "time": 1794949200
   }
  },
- "fx": 93.46,
+ "fx": 93.43,
  "lastCheck": "Wed, 18 Nov 2026, 00:36",
  "settings": {
   "model": "claude-sonnet-5-5",
@@ -1983,5 +2031,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Wed, 18 Nov 2026, 00:36"
+ "updatedAt": "Wed, 18 Nov 2026, 18:27"
 }
