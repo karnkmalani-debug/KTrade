@@ -1692,15 +1692,15 @@
    "price": 289.43,
    "cur": "INR",
    "inr": 289.43,
-   "prevClose": 290.6099853515625,
+   "prevClose": 294.2200012207031,
    "time": 1795428002
   },
   "DBC": {
-   "price": 29.11,
+   "price": 29.04,
    "cur": "USD",
-   "inr": 2704.32,
-   "prevClose": 29.31999969482422,
-   "time": 1795467600
+   "inr": 2697.64,
+   "prevClose": 29.110000610351562,
+   "time": 1795552530
   },
   "GLD": {
    "price": 322.87,
@@ -1724,11 +1724,11 @@
    "time": 1795208400
   },
   "BNO": {
-   "price": 56.66,
+   "price": 57.7,
    "cur": "USD",
-   "inr": 5263.71,
-   "prevClose": 59.02000045776367,
-   "time": 1795467600
+   "inr": 5360.91,
+   "prevClose": 56.65999984741211,
+   "time": 1795552606
   },
   "UNG": {
    "price": 10.56,
@@ -1783,7 +1783,7 @@
    "price": 103.05,
    "cur": "INR",
    "inr": 103.05,
-   "prevClose": 106.30000305175781,
+   "prevClose": 102.20999908447266,
    "time": 1795428000
   },
   "SILVERBEES.NS": {
@@ -1794,11 +1794,11 @@
    "time": 1795427999
   },
   "VOO": {
-   "price": 663.91,
+   "price": 658.03,
    "cur": "USD",
-   "inr": 61677.24,
-   "prevClose": 635.5399780273438,
-   "time": 1795467600
+   "inr": 61138.03,
+   "prevClose": 663.9099731445312,
+   "time": 1795552635
   },
   "JUNIORBEES.NS": {
    "price": 784.55,
@@ -1818,7 +1818,7 @@
    "price": 1585.5,
    "cur": "INR",
    "inr": 1585.5,
-   "prevClose": 1608.9000244140625,
+   "prevClose": 1640,
    "time": 1795427974
   },
   "RELIANCE.NS": {
@@ -1878,25 +1878,25 @@
    "time": 1795427975
   },
   "QQQ": {
-   "price": 651.03,
+   "price": 634.83,
    "cur": "USD",
-   "inr": 60480.69,
-   "prevClose": 608.4500122070312,
-   "time": 1795467601
+   "inr": 58981.87,
+   "prevClose": 651.030029296875,
+   "time": 1795552636
   },
   "VXUS": {
-   "price": 78.25,
+   "price": 77.78,
    "cur": "USD",
-   "inr": 7269.43,
-   "prevClose": 75.37999725341797,
-   "time": 1795467600
+   "inr": 7226.08,
+   "prevClose": 78.25,
+   "time": 1795552634
   },
   "MSFT": {
-   "price": 492.5,
+   "price": 493.92,
    "cur": "USD",
-   "inr": 45753.25,
-   "prevClose": 484.5199890136719,
-   "time": 1795467601
+   "inr": 45890.11,
+   "prevClose": 492.5,
+   "time": 1795552636
   },
   "AAPL": {
    "price": 342.56,
@@ -1927,11 +1927,11 @@
    "time": 1795208401
   },
   "BRK-B": {
-   "price": 572.36,
+   "price": 576.1,
    "cur": "USD",
-   "inr": 53172.24,
-   "prevClose": 570,
-   "time": 1795467602
+   "inr": 53525.45,
+   "prevClose": 572.3599853515625,
+   "time": 1795552634
   },
   "JPM": {
    "price": 310.53,
@@ -1965,7 +1965,7 @@
    "price": 3208,
    "cur": "INR",
    "inr": 3208,
-   "prevClose": 3225,
+   "prevClose": 3256.10009765625,
    "time": 1795427974
   },
   "DIXON.NS": {
@@ -2000,14 +2000,14 @@
    "price": 4780,
    "cur": "INR",
    "inr": 4780,
-   "prevClose": 4760,
+   "prevClose": 4809,
    "time": 1795427974
   },
   "ETERNAL.NS": {
    "price": 362.1,
    "cur": "INR",
    "inr": 362.1,
-   "prevClose": 366.8500061035156,
+   "prevClose": 364,
    "time": 1795427974
   },
   "CDSL.NS": {
@@ -2095,8 +2095,8 @@
    "time": 1795208400
   }
  },
- "fx": 92.9,
- "lastCheck": "Tue, 24 Nov 2026, 03:29",
+ "fx": 92.91,
+ "lastCheck": "Wed, 25 Nov 2026, 02:07",
  "settings": {
   "model": "claude-sonnet-5-5",
   "paused": false,
@@ -2165,5 +2165,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Tue, 24 Nov 2026, 20:14"
+ "updatedAt": "Wed, 25 Nov 2026, 02:07"
 }
