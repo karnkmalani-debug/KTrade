@@ -121,6 +121,15 @@
    ],
    "runs": [
     {
+     "date": "2026-11-24",
+     "time": "Tue, 24 Nov 2026, 20:14",
+     "view": "Market closed today (holiday/weekend) — no trades.",
+     "actions": [],
+     "log": [],
+     "estCostUSD": 0,
+     "manual": false
+    },
+    {
      "date": "2026-11-23",
      "time": "Mon, 23 Nov 2026, 19:55",
      "view": "A broad risk-off liquidation is hitting commodities. An AI-led equity correction has pushed gold to a 14-month low, crude is down three weeks in a row, and silver and copper are sharply lower. Gold bounced on Monday, and Gulf shipping attacks are limiting the drop in oil. The portfolio is 79% cash, which has helped it beat DBC (-9.4% against -16.1%), so I'm adding only a small, diversified starter position.",
@@ -646,7 +655,7 @@
     "worstMonthLossINR": -1081
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-11-23",
+   "lastRunDate": "2026-11-24",
    "lastRunWeek": "2026-11-23"
   },
   "longterm": {
@@ -1157,6 +1166,15 @@
    ],
    "runs": [
     {
+     "date": "2026-11-24",
+     "time": "Tue, 24 Nov 2026, 20:14",
+     "view": "Market closed today (holiday/weekend) — no trades.",
+     "actions": [],
+     "log": [],
+     "estCostUSD": 0,
+     "manual": false
+    },
+    {
      "date": "2026-11-23",
      "time": "Mon, 23 Nov 2026, 19:56",
      "view": "US equities had a historic AI-led selloff on Friday. The Nasdaq fell about 5.3%, the S&P 500 and Dow entered correction, and Nvidia dropped about 14% on an accounting-probe report. The Indian holdings (HAL, Eternal, Trent) are holding up, and the portfolio has no US exposure. I'm keeping about 34% cash and waiting for US volatility to settle and a better Indian entry, rather than catching falling US semis or buying overbought Indian names (RSI above 70).",
@@ -1665,7 +1683,7 @@
     "worstMonthLossINR": -705
    },
    "startedOn": "2026-10-24",
-   "lastRunDate": "2026-11-23",
+   "lastRunDate": "2026-11-24",
    "lastRunWeek": "2026-11-23"
   }
  },
@@ -2147,5 +2165,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Tue, 24 Nov 2026, 03:29"
+ "updatedAt": "Tue, 24 Nov 2026, 20:14"
 }
