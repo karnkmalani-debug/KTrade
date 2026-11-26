@@ -1847,13 +1847,13 @@
    "price": 295.33,
    "cur": "INR",
    "inr": 295.33,
-   "prevClose": 294.07000732421875,
+   "prevClose": 289.42999267578125,
    "time": 1795687196
   },
   "DBC": {
    "price": 29.27,
    "cur": "USD",
-   "inr": 2708.65,
+   "inr": 2705.57,
    "prevClose": 29.030000686645508,
    "time": 1795640400
   },
@@ -1881,7 +1881,7 @@
   "BNO": {
    "price": 59.4,
    "cur": "USD",
-   "inr": 5496.88,
+   "inr": 5490.64,
    "prevClose": 57.75,
    "time": 1795640400
   },
@@ -1902,7 +1902,7 @@
   "DBA": {
    "price": 26.34,
    "cur": "USD",
-   "inr": 2437.5,
+   "inr": 2434.74,
    "prevClose": 26.280000686645508,
    "time": 1795640400
   },
@@ -1938,7 +1938,7 @@
    "price": 100.96,
    "cur": "INR",
    "inr": 100.96,
-   "prevClose": 100.11000061035156,
+   "prevClose": 103.05000305175781,
    "time": 1795687200
   },
   "SILVERBEES.NS": {
@@ -1949,11 +1949,11 @@
    "time": 1795687200
   },
   "VOO": {
-   "price": 658.76,
+   "price": 658.87,
    "cur": "USD",
-   "inr": 60751.03,
+   "inr": 60902.65,
    "prevClose": 660.7100219726562,
-   "time": 1795636367
+   "time": 1795640400
   },
   "JUNIORBEES.NS": {
    "price": 784.55,
@@ -1970,11 +1970,11 @@
    "time": 1795427974
   },
   "ICICIBANK.NS": {
-   "price": 1640,
+   "price": 1611,
    "cur": "INR",
-   "inr": 1640,
-   "prevClose": 1640,
-   "time": 1795600749
+   "inr": 1611,
+   "prevClose": 1585.5,
+   "time": 1795687116
   },
   "RELIANCE.NS": {
    "price": 1351,
@@ -2035,23 +2035,23 @@
   "QQQ": {
    "price": 633.93,
    "cur": "USD",
-   "inr": 58663.88,
+   "inr": 58597.32,
    "prevClose": 638.0999755859375,
    "time": 1795640401
   },
   "VXUS": {
-   "price": 77.98,
+   "price": 78.02,
    "cur": "USD",
-   "inr": 7191.13,
+   "inr": 7211.78,
    "prevClose": 77.94000244140625,
-   "time": 1795636367
+   "time": 1795640401
   },
   "MSFT": {
-   "price": 491.2,
+   "price": 489.93,
    "cur": "USD",
-   "inr": 45298.46,
+   "inr": 45286.68,
    "prevClose": 496.1300048828125,
-   "time": 1795636367
+   "time": 1795640402
   },
   "AAPL": {
    "price": 342.56,
@@ -2082,11 +2082,11 @@
    "time": 1795640401
   },
   "BRK-B": {
-   "price": 580.05,
+   "price": 579.32,
    "cur": "USD",
-   "inr": 53492.21,
+   "inr": 53549.44,
    "prevClose": 577.2100219726562,
-   "time": 1795636369
+   "time": 1795640402
   },
   "JPM": {
    "price": 310.53,
@@ -2120,7 +2120,7 @@
    "price": 3262.6,
    "cur": "INR",
    "inr": 3262.6,
-   "prevClose": 3319.60009765625,
+   "prevClose": 3208,
    "time": 1795687121
   },
   "DIXON.NS": {
@@ -2148,28 +2148,28 @@
    "price": 404.5,
    "cur": "INR",
    "inr": 404.5,
-   "prevClose": 404.29998779296875,
+   "prevClose": 395.79998779296875,
    "time": 1795687117
   },
   "HAL.NS": {
    "price": 4909.6,
    "cur": "INR",
    "inr": 4909.6,
-   "prevClose": 4936,
+   "prevClose": 4780,
    "time": 1795687117
   },
   "ETERNAL.NS": {
    "price": 367.7,
    "cur": "INR",
    "inr": 367.7,
-   "prevClose": 371.70001220703125,
+   "prevClose": 362.1000061035156,
    "time": 1795687117
   },
   "CDSL.NS": {
    "price": 1441,
    "cur": "INR",
    "inr": 1441,
-   "prevClose": 1413,
+   "prevClose": 1395,
    "time": 1795687118
   },
   "KPITTECH.NS": {
@@ -2250,8 +2250,8 @@
    "time": 1795640401
   }
  },
- "fx": 92.54,
- "lastCheck": "Thu, 26 Nov 2026, 01:22",
+ "fx": 92.44,
+ "lastCheck": "Fri, 27 Nov 2026, 01:01",
  "settings": {
   "model": "claude-sonnet-5-5",
   "paused": false,
@@ -2320,5 +2320,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Thu, 26 Nov 2026, 19:17"
+ "updatedAt": "Fri, 27 Nov 2026, 01:01"
 }
