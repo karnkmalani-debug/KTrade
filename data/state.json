@@ -1875,15 +1875,15 @@
    "price": 292,
    "cur": "INR",
    "inr": 292,
-   "prevClose": 295.3299865722656,
+   "prevClose": 294.07000732421875,
    "time": 1795773602
   },
   "DBC": {
-   "price": 29.27,
+   "price": 29.55,
    "cur": "USD",
-   "inr": 2718.3,
-   "prevClose": 29.030000686645508,
-   "time": 1795640400
+   "inr": 2747.56,
+   "prevClose": 29.270000457763672,
+   "time": 1795802400
   },
   "GLD": {
    "price": 327.45,
@@ -1907,11 +1907,11 @@
    "time": 1795640400
   },
   "BNO": {
-   "price": 59.4,
+   "price": 58.93,
    "cur": "USD",
-   "inr": 5516.48,
-   "prevClose": 57.75,
-   "time": 1795640400
+   "inr": 5479.31,
+   "prevClose": 59.400001525878906,
+   "time": 1795802400
   },
   "UNG": {
    "price": 10.3,
@@ -1928,11 +1928,11 @@
    "time": 1795640400
   },
   "DBA": {
-   "price": 26.34,
+   "price": 26.75,
    "cur": "USD",
-   "inr": 2446.2,
-   "prevClose": 26.280000686645508,
-   "time": 1795640400
+   "inr": 2487.22,
+   "prevClose": 26.34000015258789,
+   "time": 1795802400
   },
   "PDBC": {
    "price": 17.45,
@@ -1966,7 +1966,7 @@
    "price": 103.78,
    "cur": "INR",
    "inr": 103.78,
-   "prevClose": 100.95999908447266,
+   "prevClose": 100.11000061035156,
    "time": 1795773599
   },
   "SILVERBEES.NS": {
@@ -1977,11 +1977,11 @@
    "time": 1795773600
   },
   "VOO": {
-   "price": 658.87,
+   "price": 669.79,
    "cur": "USD",
-   "inr": 60902.65,
-   "prevClose": 660.7100219726562,
-   "time": 1795640400
+   "inr": 62277.07,
+   "prevClose": 658.8699951171875,
+   "time": 1795802400
   },
   "JUNIORBEES.NS": {
    "price": 784.55,
@@ -1998,11 +1998,11 @@
    "time": 1795427974
   },
   "ICICIBANK.NS": {
-   "price": 1611,
+   "price": 1593.4,
    "cur": "INR",
-   "inr": 1611,
-   "prevClose": 1585.5,
-   "time": 1795687116
+   "inr": 1593.4,
+   "prevClose": 1640,
+   "time": 1795773550
   },
   "RELIANCE.NS": {
    "price": 1351,
@@ -2061,25 +2061,25 @@
    "time": 1795427975
   },
   "QQQ": {
-   "price": 633.93,
+   "price": 650.99,
    "cur": "USD",
-   "inr": 58873.08,
-   "prevClose": 638.0999755859375,
-   "time": 1795640401
+   "inr": 60529.05,
+   "prevClose": 633.9299926757812,
+   "time": 1795802400
   },
   "VXUS": {
-   "price": 78.02,
+   "price": 79.52,
    "cur": "USD",
-   "inr": 7211.78,
-   "prevClose": 77.94000244140625,
-   "time": 1795640401
+   "inr": 7393.77,
+   "prevClose": 78.0199966430664,
+   "time": 1795802400
   },
   "MSFT": {
-   "price": 489.93,
+   "price": 492.85,
    "cur": "USD",
-   "inr": 45286.68,
-   "prevClose": 496.1300048828125,
-   "time": 1795640402
+   "inr": 45825.19,
+   "prevClose": 489.92999267578125,
+   "time": 1795802401
   },
   "AAPL": {
    "price": 342.56,
@@ -2110,11 +2110,11 @@
    "time": 1795640401
   },
   "BRK-B": {
-   "price": 579.32,
+   "price": 580.79,
    "cur": "USD",
-   "inr": 53549.44,
-   "prevClose": 577.2100219726562,
-   "time": 1795640402
+   "inr": 54001.85,
+   "prevClose": 579.3200073242188,
+   "time": 1795802402
   },
   "JPM": {
    "price": 310.53,
@@ -2148,7 +2148,7 @@
    "price": 3273,
    "cur": "INR",
    "inr": 3273,
-   "prevClose": 3262.60009765625,
+   "prevClose": 3319.60009765625,
    "time": 1795773557
   },
   "DIXON.NS": {
@@ -2176,28 +2176,28 @@
    "price": 411.45,
    "cur": "INR",
    "inr": 411.45,
-   "prevClose": 404.5,
+   "prevClose": 404.29998779296875,
    "time": 1795773556
   },
   "HAL.NS": {
    "price": 5074,
    "cur": "INR",
    "inr": 5074,
-   "prevClose": 4909.60009765625,
+   "prevClose": 4936,
    "time": 1795773550
   },
   "ETERNAL.NS": {
    "price": 363,
    "cur": "INR",
    "inr": 363,
-   "prevClose": 367.70001220703125,
+   "prevClose": 371.70001220703125,
    "time": 1795773556
   },
   "CDSL.NS": {
    "price": 1453,
    "cur": "INR",
    "inr": 1453,
-   "prevClose": 1441,
+   "prevClose": 1413,
    "time": 1795773555
   },
   "KPITTECH.NS": {
@@ -2278,8 +2278,8 @@
    "time": 1795640401
   }
  },
- "fx": 92.87,
- "lastCheck": "Fri, 27 Nov 2026, 01:01",
+ "fx": 92.98,
+ "lastCheck": "Sat, 28 Nov 2026, 00:55",
  "settings": {
   "model": "claude-sonnet-5-5",
   "paused": false,
@@ -2348,5 +2348,5 @@
   "IN": 0.15,
   "US": 0.75
  },
- "updatedAt": "Fri, 27 Nov 2026, 19:13"
+ "updatedAt": "Sat, 28 Nov 2026, 00:55"
 }
